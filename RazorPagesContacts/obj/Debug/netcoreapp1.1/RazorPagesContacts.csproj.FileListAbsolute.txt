@@ -1,0 +1,11 @@
+C:\MSProject\DotNetCore\RazorPagesContacts\RazorPagesContacts\bin\Debug\netcoreapp1.1\RazorPagesContacts.deps.json
+C:\MSProject\DotNetCore\RazorPagesContacts\RazorPagesContacts\bin\Debug\netcoreapp1.1\RazorPagesContacts.runtimeconfig.json
+C:\MSProject\DotNetCore\RazorPagesContacts\RazorPagesContacts\bin\Debug\netcoreapp1.1\RazorPagesContacts.runtimeconfig.dev.json
+C:\MSProject\DotNetCore\RazorPagesContacts\RazorPagesContacts\bin\Debug\netcoreapp1.1\RazorPagesContacts.dll
+C:\MSProject\DotNetCore\RazorPagesContacts\RazorPagesContacts\bin\Debug\netcoreapp1.1\RazorPagesContacts.pdb
+C:\MSProject\DotNetCore\RazorPagesContacts\RazorPagesContacts\obj\Debug\netcoreapp1.1\RazorPagesContacts.csprojResolveAssemblyReference.cache
+C:\MSProject\DotNetCore\RazorPagesContacts\RazorPagesContacts\obj\Debug\netcoreapp1.1\RazorPagesContacts.csproj.CoreCompileInputs.cache
+C:\MSProject\DotNetCore\RazorPagesContacts\RazorPagesContacts\obj\Debug\netcoreapp1.1\RazorPagesContacts.AssemblyInfoInputs.cache
+C:\MSProject\DotNetCore\RazorPagesContacts\RazorPagesContacts\obj\Debug\netcoreapp1.1\RazorPagesContacts.AssemblyInfo.cs
+C:\MSProject\DotNetCore\RazorPagesContacts\RazorPagesContacts\obj\Debug\netcoreapp1.1\RazorPagesContacts.dll
+C:\MSProject\DotNetCore\RazorPagesContacts\RazorPagesContacts\obj\Debug\netcoreapp1.1\RazorPagesContacts.pdb
