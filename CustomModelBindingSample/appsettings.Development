@@ -1,0 +1,10 @@
+﻿{
+  "Logging": {
+    "IncludesCopes": false,
+    "LogLevel": {
+      "Default": "Debug",
+      "System": "Information",
+      "Microsoft": "Information"
+    }
+  }
+}

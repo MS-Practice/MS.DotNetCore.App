@@ -9873,11 +9873,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "D:\\MS\\Project\\dotnet\\MS.DotNetCore.App\\RazorPagesContacts\\RazorPagesContacts.csproj",
+      "projectUniqueName": "D:\\MS\\Project\\dotnet\\MS.DotNetCore.App\\MS.DotNetCore.App\\RazorPagesContacts\\RazorPagesContacts.csproj",
       "projectName": "RazorPagesContacts",
-      "projectPath": "D:\\MS\\Project\\dotnet\\MS.DotNetCore.App\\RazorPagesContacts\\RazorPagesContacts.csproj",
+      "projectPath": "D:\\MS\\Project\\dotnet\\MS.DotNetCore.App\\MS.DotNetCore.App\\RazorPagesContacts\\RazorPagesContacts.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "D:\\MS\\Project\\dotnet\\MS.DotNetCore.App\\RazorPagesContacts\\obj\\",
+      "outputPath": "D:\\MS\\Project\\dotnet\\MS.DotNetCore.App\\MS.DotNetCore.App\\RazorPagesContacts\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
