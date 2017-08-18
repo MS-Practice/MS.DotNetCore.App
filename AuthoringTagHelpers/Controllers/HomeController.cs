@@ -10,9 +10,15 @@ namespace AuthoringTagHelpers.Controllers
 {
     public class HomeController : Controller
     {
-        public IActionResult Index()
+        public IActionResult Index(bool approved = false)
         {
-            return View();
+            return View(new WebsiteContext
+            {
+                Approved = approved,
+                CopyrightYear = 2017,
+                Version = new Version(2, 0, 0, 0),
+                TagsToShow = 20
+            });
         }
 
         public IActionResult About()

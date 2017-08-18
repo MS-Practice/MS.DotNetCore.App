@@ -4362,7 +4362,7 @@
       ]
     },
     "Microsoft.EntityFrameworkCore/2.0.0": {
-      "sha512": "wmgBEpjoxd6ElVh13dlzmsl/9BtE5lky97vutJxLwFopP0IuWAyclCC2WHoXq4bYRmtzYSpmA4Q/kNugynswSA==",
+      "sha512": "oysCSI4Rol0rgl7dF88GepyXlcnI+VjSUVwFAK1mQgb7Vy0nvlp3fP8OltP4oXLfhv9UhM6ULRN9/5AkLZdwnQ==",
       "type": "package",
       "path": "microsoft.entityframeworkcore/2.0.0",
       "files": [
@@ -9864,7 +9864,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Administrator\\.nuget\\packages\\": {},
+    "C:\\Users\\summer\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
@@ -9873,17 +9873,17 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "D:\\MS\\Project\\dotnet\\MS.DotNetCore.App\\MS.DotNetCore.App\\RazorPagesContacts\\RazorPagesContacts.csproj",
+      "projectUniqueName": "C:\\MSProject\\DotNetCore\\MS.DotNetCore.App\\RazorPagesContacts\\RazorPagesContacts.csproj",
       "projectName": "RazorPagesContacts",
-      "projectPath": "D:\\MS\\Project\\dotnet\\MS.DotNetCore.App\\MS.DotNetCore.App\\RazorPagesContacts\\RazorPagesContacts.csproj",
-      "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "D:\\MS\\Project\\dotnet\\MS.DotNetCore.App\\MS.DotNetCore.App\\RazorPagesContacts\\obj\\",
+      "projectPath": "C:\\MSProject\\DotNetCore\\MS.DotNetCore.App\\RazorPagesContacts\\RazorPagesContacts.csproj",
+      "packagesPath": "C:\\Users\\summer\\.nuget\\packages\\",
+      "outputPath": "C:\\MSProject\\DotNetCore\\MS.DotNetCore.App\\RazorPagesContacts\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\summer\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -9891,7 +9891,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://www.nuget.org/api/v2/": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp2.0": {

@@ -9,3 +9,14 @@ D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\AuthoringTagHelpers\obj
 D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\AuthoringTagHelpers\obj\Debug\netcoreapp2.0\AuthoringTagHelpers.AssemblyInfo.cs
 D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\AuthoringTagHelpers\obj\Debug\netcoreapp2.0\AuthoringTagHelpers.dll
 D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\AuthoringTagHelpers\obj\Debug\netcoreapp2.0\AuthoringTagHelpers.pdb
+C:\MSProject\DotNetCore\MS.DotNetCore.App\AuthoringTagHelpers\bin\Debug\netcoreapp2.0\AuthoringTagHelpers.deps.json
+C:\MSProject\DotNetCore\MS.DotNetCore.App\AuthoringTagHelpers\bin\Debug\netcoreapp2.0\AuthoringTagHelpers.runtimeconfig.json
+C:\MSProject\DotNetCore\MS.DotNetCore.App\AuthoringTagHelpers\bin\Debug\netcoreapp2.0\AuthoringTagHelpers.runtimeconfig.dev.json
+C:\MSProject\DotNetCore\MS.DotNetCore.App\AuthoringTagHelpers\bin\Debug\netcoreapp2.0\AuthoringTagHelpers.dll
+C:\MSProject\DotNetCore\MS.DotNetCore.App\AuthoringTagHelpers\bin\Debug\netcoreapp2.0\AuthoringTagHelpers.pdb
+C:\MSProject\DotNetCore\MS.DotNetCore.App\AuthoringTagHelpers\obj\Debug\netcoreapp2.0\AuthoringTagHelpers.csprojResolveAssemblyReference.cache
+C:\MSProject\DotNetCore\MS.DotNetCore.App\AuthoringTagHelpers\obj\Debug\netcoreapp2.0\AuthoringTagHelpers.csproj.CoreCompileInputs.cache
+C:\MSProject\DotNetCore\MS.DotNetCore.App\AuthoringTagHelpers\obj\Debug\netcoreapp2.0\AuthoringTagHelpers.AssemblyInfoInputs.cache
+C:\MSProject\DotNetCore\MS.DotNetCore.App\AuthoringTagHelpers\obj\Debug\netcoreapp2.0\AuthoringTagHelpers.AssemblyInfo.cs
+C:\MSProject\DotNetCore\MS.DotNetCore.App\AuthoringTagHelpers\obj\Debug\netcoreapp2.0\AuthoringTagHelpers.dll
+C:\MSProject\DotNetCore\MS.DotNetCore.App\AuthoringTagHelpers\obj\Debug\netcoreapp2.0\AuthoringTagHelpers.pdb

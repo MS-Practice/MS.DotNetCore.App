@@ -1,7 +1,20 @@
-﻿@{
+﻿@using AuthoringTagHelpers.Models
+@model WebsiteContext
+@{
     ViewData["Title"] = "Home Page";
 }
-
+<div>
+    <h3>
+        Infomation about our website (outdated):
+    </h3>
+    <website-information info=Model />
+    <div condition="Model.Approved">
+        <p>
+            This website has <strong surround="em"> @Model.Approved </strong> been approved yet.
+            Visit www.contoso.com for more information.
+        </p>
+    </div>
+</div>
 <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="6000">
     <ol class="carousel-indicators">
         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>

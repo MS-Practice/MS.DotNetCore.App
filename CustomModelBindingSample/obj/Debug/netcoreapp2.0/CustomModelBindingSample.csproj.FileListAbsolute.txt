@@ -9,3 +9,14 @@ D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\CustomModelBindingSampl
 D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\CustomModelBindingSample\obj\Debug\netcoreapp2.0\CustomModelBindingSample.AssemblyInfo.cs
 D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\CustomModelBindingSample\obj\Debug\netcoreapp2.0\CustomModelBindingSample.dll
 D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\CustomModelBindingSample\obj\Debug\netcoreapp2.0\CustomModelBindingSample.pdb
+C:\MSProject\DotNetCore\MS.DotNetCore.App\CustomModelBindingSample\bin\Debug\netcoreapp2.0\CustomModelBindingSample.deps.json
+C:\MSProject\DotNetCore\MS.DotNetCore.App\CustomModelBindingSample\bin\Debug\netcoreapp2.0\CustomModelBindingSample.runtimeconfig.json
+C:\MSProject\DotNetCore\MS.DotNetCore.App\CustomModelBindingSample\bin\Debug\netcoreapp2.0\CustomModelBindingSample.runtimeconfig.dev.json
+C:\MSProject\DotNetCore\MS.DotNetCore.App\CustomModelBindingSample\bin\Debug\netcoreapp2.0\CustomModelBindingSample.dll
+C:\MSProject\DotNetCore\MS.DotNetCore.App\CustomModelBindingSample\bin\Debug\netcoreapp2.0\CustomModelBindingSample.pdb
+C:\MSProject\DotNetCore\MS.DotNetCore.App\CustomModelBindingSample\obj\Debug\netcoreapp2.0\CustomModelBindingSample.csprojResolveAssemblyReference.cache
+C:\MSProject\DotNetCore\MS.DotNetCore.App\CustomModelBindingSample\obj\Debug\netcoreapp2.0\CustomModelBindingSample.csproj.CoreCompileInputs.cache
+C:\MSProject\DotNetCore\MS.DotNetCore.App\CustomModelBindingSample\obj\Debug\netcoreapp2.0\CustomModelBindingSample.AssemblyInfoInputs.cache
+C:\MSProject\DotNetCore\MS.DotNetCore.App\CustomModelBindingSample\obj\Debug\netcoreapp2.0\CustomModelBindingSample.AssemblyInfo.cs
+C:\MSProject\DotNetCore\MS.DotNetCore.App\CustomModelBindingSample\obj\Debug\netcoreapp2.0\CustomModelBindingSample.dll
+C:\MSProject\DotNetCore\MS.DotNetCore.App\CustomModelBindingSample\obj\Debug\netcoreapp2.0\CustomModelBindingSample.pdb

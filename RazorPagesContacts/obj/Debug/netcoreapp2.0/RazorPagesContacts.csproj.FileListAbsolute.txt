@@ -42,3 +42,14 @@ D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\RazorPagesContacts\obj\
 D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\RazorPagesContacts\obj\Debug\netcoreapp2.0\RazorPagesContacts.AssemblyInfo.cs
 D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\RazorPagesContacts\obj\Debug\netcoreapp2.0\RazorPagesContacts.dll
 D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\RazorPagesContacts\obj\Debug\netcoreapp2.0\RazorPagesContacts.pdb
+C:\MSProject\DotNetCore\MS.DotNetCore.App\RazorPagesContacts\bin\Debug\netcoreapp2.0\RazorPagesContacts.deps.json
+C:\MSProject\DotNetCore\MS.DotNetCore.App\RazorPagesContacts\bin\Debug\netcoreapp2.0\RazorPagesContacts.runtimeconfig.json
+C:\MSProject\DotNetCore\MS.DotNetCore.App\RazorPagesContacts\bin\Debug\netcoreapp2.0\RazorPagesContacts.runtimeconfig.dev.json
+C:\MSProject\DotNetCore\MS.DotNetCore.App\RazorPagesContacts\bin\Debug\netcoreapp2.0\RazorPagesContacts.dll
+C:\MSProject\DotNetCore\MS.DotNetCore.App\RazorPagesContacts\bin\Debug\netcoreapp2.0\RazorPagesContacts.pdb
+C:\MSProject\DotNetCore\MS.DotNetCore.App\RazorPagesContacts\obj\Debug\netcoreapp2.0\RazorPagesContacts.csprojResolveAssemblyReference.cache
+C:\MSProject\DotNetCore\MS.DotNetCore.App\RazorPagesContacts\obj\Debug\netcoreapp2.0\RazorPagesContacts.csproj.CoreCompileInputs.cache
+C:\MSProject\DotNetCore\MS.DotNetCore.App\RazorPagesContacts\obj\Debug\netcoreapp2.0\RazorPagesContacts.AssemblyInfoInputs.cache
+C:\MSProject\DotNetCore\MS.DotNetCore.App\RazorPagesContacts\obj\Debug\netcoreapp2.0\RazorPagesContacts.AssemblyInfo.cs
+C:\MSProject\DotNetCore\MS.DotNetCore.App\RazorPagesContacts\obj\Debug\netcoreapp2.0\RazorPagesContacts.dll
+C:\MSProject\DotNetCore\MS.DotNetCore.App\RazorPagesContacts\obj\Debug\netcoreapp2.0\RazorPagesContacts.pdb
