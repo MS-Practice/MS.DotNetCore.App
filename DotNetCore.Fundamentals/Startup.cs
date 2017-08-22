@@ -7,6 +7,8 @@ using Microsoft.Extensions.FileProviders;
 using System.IO;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.StaticFiles;
+using Microsoft.AspNetCore.Routing.Constraints;
+using Microsoft.AspNetCore.Routing;
 
 namespace DotNetCore.Fundamentals
 {
@@ -29,6 +31,26 @@ namespace DotNetCore.Fundamentals
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
         {
+            var trackPackageRouteHandler = new RouteHandler(context =>
+            {
+                var routeValues = context.GetRouteData().Values;
+                return context.Response.WriteAsync($"Hello! Route values: {string.Join(", ", routeValues)}");
+            });
+            var routeBuilder = new RouteBuilder(app, trackPackageRouteHandler);
+            routeBuilder.MapRoute(
+                "Track Package Route",
+                "package/{operation:regex(^(track|create|detonate)$)}/{id:int}"
+                );
+
+            routeBuilder.MapGet("hello/{name}", context =>
+            {
+                var name = context.GetRouteValue("name");
+                return context.Response.WriteAsync($"Hi,{name}");
+            });
+
+            var router = routeBuilder.Build();
+            app.UseRouter(router);
+
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
@@ -77,6 +99,13 @@ namespace DotNetCore.Fundamentals
 
             app.UseMvc(routes =>
             {
+                routes.MapRoute(
+                    name: "us_english_products",
+                    template: "en-US/Products/{id}",
+                    defaults: new { controller = "Products", action = "Details" },
+                    constraints: new { id = new IntRouteConstraint() },
+                    dataTokens: new { locale = "en-US" }
+                    );
                 routes.MapRoute(
                     name: "default",
                     template: "{controller=Home}/{action=Index}/{id?}");
