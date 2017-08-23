@@ -110,6 +110,21 @@ namespace DotNetCore.Fundamentals
                     name: "default",
                     template: "{controller=Home}/{action=Index}/{id?}");
             });
+
+            app.Run(async context =>
+            {
+                var dictionary = new RouteValueDictionary
+                {
+                    { "operation","create"},
+                    { "id",123}
+                };
+                var vpc = new VirtualPathContext(context, null, dictionary, "Track Package Route");
+                var path = router.GetVirtualPath(vpc).VirtualPath;
+
+                context.Response.ContentType = "text/html";
+                await context.Response.WriteAsync("Menu<hr/>");
+                await context.Response.WriteAsync($"<a href='{path}'>Create Package 123</a>");
+            });
         }
     }
 }
