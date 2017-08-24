@@ -9,6 +9,8 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.StaticFiles;
 using Microsoft.AspNetCore.Routing.Constraints;
 using Microsoft.AspNetCore.Routing;
+using Microsoft.AspNetCore.Rewrite;
+using DotNetCore.Fundamentals.Routings;
 
 namespace DotNetCore.Fundamentals
 {
@@ -93,7 +95,7 @@ namespace DotNetCore.Fundamentals
             app.UseDirectoryBrowser(new DirectoryBrowserOptions()
             {
                 FileProvider = new PhysicalFileProvider(
-                    Path.Combine(Directory.GetCurrentDirectory(),@"wwwroot","images")),
+                    Path.Combine(Directory.GetCurrentDirectory(), @"wwwroot", "images")),
                 RequestPath = new PathString("/MyImages")
             });
 
@@ -111,6 +113,27 @@ namespace DotNetCore.Fundamentals
                     template: "{controller=Home}/{action=Index}/{id?}");
             });
 
+            //使用UrlRewriteMiddleware
+            using (var apacheModRewriteStreamReader = File.OpenText(Path.Combine(Directory.GetCurrentDirectory(), "Routings", "ApacheModReWriter.txt")))
+            using (var iisUrlRewriteStreamReader = File.OpenText(Path.Combine(Directory.GetCurrentDirectory(), "Routings", "IISUrlRewrite.xml")))
+            {
+                var rewriteOptions = new RewriteOptions()
+                    .AddRedirect("redirect-rule/(.*)", "redirected/$1")
+                    .AddRewrite(@"^rewrite-rule/(\d+)/(\d+)", "rewritten?var1=$1&var2=$2", skipRemainingRules: true)
+                    .AddApacheModRewrite(apacheModRewriteStreamReader)
+                    .AddIISUrlRewrite(iisUrlRewriteStreamReader)
+                    .Add(RewriteRules.RedirectXMLRequests)
+                    .Add(new RedirectImageRequests(".png", "/png-images"))
+                    .Add(new RedirectImageRequests(".jpg", "/jpg-images"));
+
+                app.UseRewriter(rewriteOptions);
+            }
+            app.Run(async context =>
+            {
+                await context.Response.WriteAsync($"Rewritten or Redirected Url: {context.Request.Path + context.Request.QueryString}");
+            });
+#if RouteValueDictionary
+
             app.Run(async context =>
             {
                 var dictionary = new RouteValueDictionary
@@ -124,7 +147,8 @@ namespace DotNetCore.Fundamentals
                 context.Response.ContentType = "text/html";
                 await context.Response.WriteAsync("Menu<hr/>");
                 await context.Response.WriteAsync($"<a href='{path}'>Create Package 123</a>");
-            });
+            }); 
+#endif
         }
     }
 }
