@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26730.3
+VisualStudioVersion = 15.0.26730.10
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RazorPagesContacts", "RazorPagesContacts\RazorPagesContacts.csproj", "{0892158F-916E-42FB-A316-09F4E9A4588D}"
 EndProject
@@ -13,7 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetCore.Fundamentals", "
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "examples", "examples", "{42780C51-9060-4603-ACC7-07990A970BDC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UrlWriting.Demo", "UrlWriting.Demo\UrlWriting.Demo.csproj", "{60D243B6-A351-42DB-A4D9-682621635DD0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UrlWriting.Demo", "UrlWriting.Demo\UrlWriting.Demo.csproj", "{60D243B6-A351-42DB-A4D9-682621635DD0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ErrorHandling.Demo", "ErrorHandling.Demo\ErrorHandling.Demo.csproj", "{D2926FAE-972F-4CFA-8057-0357FB89BCB0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,12 +43,17 @@ Global
 		{60D243B6-A351-42DB-A4D9-682621635DD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{60D243B6-A351-42DB-A4D9-682621635DD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{60D243B6-A351-42DB-A4D9-682621635DD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2926FAE-972F-4CFA-8057-0357FB89BCB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2926FAE-972F-4CFA-8057-0357FB89BCB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2926FAE-972F-4CFA-8057-0357FB89BCB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2926FAE-972F-4CFA-8057-0357FB89BCB0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{60D243B6-A351-42DB-A4D9-682621635DD0} = {42780C51-9060-4603-ACC7-07990A970BDC}
+		{D2926FAE-972F-4CFA-8057-0357FB89BCB0} = {42780C51-9060-4603-ACC7-07990A970BDC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {85BBD894-C5B7-46AF-8E87-AEEEB7DEC542}

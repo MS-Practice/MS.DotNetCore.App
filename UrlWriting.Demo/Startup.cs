@@ -1,11 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Builder;
+﻿using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
+using System.IO;
+using Microsoft.AspNetCore.Rewrite;
 
 namespace UrlWriting.Demo
 {
@@ -25,9 +23,24 @@ namespace UrlWriting.Demo
                 app.UseDeveloperExceptionPage();
             }
 
+            //UseReWriterMiddleware
+            using (var apacheModRewriteStreamReader = File.OpenText("ApacheModRewrite.txt"))
+            using (var iisUrlRewriteStreamReader = File.OpenText("IISUrlRewrite.xml"))
+            {
+                var options = new RewriteOptions()
+                    .AddRedirect("redirect-rule/(.*)", "redirected/$1")
+                    .AddRewrite(@"^rewrite-rule/(\d+)/(\d+)", "rewritten?val1=$1&val2=$2", skipRemainingRules: true)
+                    .AddApacheModRewrite(apacheModRewriteStreamReader)
+                    .AddIISUrlRewrite(iisUrlRewriteStreamReader)
+                    .Add(new RedirectImageRequests(".png", "/png-images"))
+                    .Add(new RedirectImageRequests(".jpg", "/png-images"));
+
+                app.UseRewriter(options);
+            }
+
             app.Run(async (context) =>
             {
-                await context.Response.WriteAsync("Hello World!");
+                await context.Response.WriteAsync($"Rewritten or Redirected Url: {context.Request.Path + context.Request.QueryString}");
             });
         }
     }

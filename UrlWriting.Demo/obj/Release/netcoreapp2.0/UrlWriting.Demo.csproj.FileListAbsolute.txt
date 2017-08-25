@@ -1,0 +1,11 @@
+D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\UrlWriting.Demo\bin\Release\netcoreapp2.0\UrlWriting.Demo.deps.json
+D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\UrlWriting.Demo\bin\Release\netcoreapp2.0\UrlWriting.Demo.runtimeconfig.json
+D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\UrlWriting.Demo\bin\Release\netcoreapp2.0\UrlWriting.Demo.runtimeconfig.dev.json
+D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\UrlWriting.Demo\bin\Release\netcoreapp2.0\UrlWriting.Demo.dll
+D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\UrlWriting.Demo\bin\Release\netcoreapp2.0\UrlWriting.Demo.pdb
+D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\UrlWriting.Demo\obj\Release\netcoreapp2.0\UrlWriting.Demo.csprojResolveAssemblyReference.cache
+D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\UrlWriting.Demo\obj\Release\netcoreapp2.0\UrlWriting.Demo.csproj.CoreCompileInputs.cache
+D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\UrlWriting.Demo\obj\Release\netcoreapp2.0\UrlWriting.Demo.AssemblyInfoInputs.cache
+D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\UrlWriting.Demo\obj\Release\netcoreapp2.0\UrlWriting.Demo.AssemblyInfo.cs
+D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\UrlWriting.Demo\obj\Release\netcoreapp2.0\UrlWriting.Demo.dll
+D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\UrlWriting.Demo\obj\Release\netcoreapp2.0\UrlWriting.Demo.pdb

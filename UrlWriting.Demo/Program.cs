@@ -7,6 +7,7 @@ using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
+using System.Net;
 
 namespace UrlWriting.Demo
 {
@@ -19,6 +20,15 @@ namespace UrlWriting.Demo
 
         public static IWebHost BuildWebHost(string[] args) =>
             WebHost.CreateDefaultBuilder(args)
+                .UseKestrel(options =>
+                {
+                    options.Listen(IPAddress.Any, 5000);
+                    options.Listen(IPAddress.Any, 5001);
+                    options.Listen(IPAddress.Loopback, 433, listenOptions =>
+                      {
+                          listenOptions.UseHttps("testCert.pfx", "testPassword");
+                      });
+                })
                 .UseStartup<Startup>()
                 .Build();
     }
