@@ -9,3 +9,14 @@ C:\MSProject\DotNetCore\MS.DotNetCore.App\DotNetCore.Fundamentals\obj\Debug\netc
 C:\MSProject\DotNetCore\MS.DotNetCore.App\DotNetCore.Fundamentals\obj\Debug\netcoreapp2.0\DotNetCore.Fundamentals.AssemblyInfo.cs
 C:\MSProject\DotNetCore\MS.DotNetCore.App\DotNetCore.Fundamentals\obj\Debug\netcoreapp2.0\DotNetCore.Fundamentals.dll
 C:\MSProject\DotNetCore\MS.DotNetCore.App\DotNetCore.Fundamentals\obj\Debug\netcoreapp2.0\DotNetCore.Fundamentals.pdb
+D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\DotNetCore.Fundamentals\bin\Debug\netcoreapp2.0\DotNetCore.Fundamentals.deps.json
+D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\DotNetCore.Fundamentals\bin\Debug\netcoreapp2.0\DotNetCore.Fundamentals.runtimeconfig.json
+D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\DotNetCore.Fundamentals\bin\Debug\netcoreapp2.0\DotNetCore.Fundamentals.runtimeconfig.dev.json
+D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\DotNetCore.Fundamentals\bin\Debug\netcoreapp2.0\DotNetCore.Fundamentals.dll
+D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\DotNetCore.Fundamentals\bin\Debug\netcoreapp2.0\DotNetCore.Fundamentals.pdb
+D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\DotNetCore.Fundamentals\obj\Debug\netcoreapp2.0\DotNetCore.Fundamentals.csprojResolveAssemblyReference.cache
+D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\DotNetCore.Fundamentals\obj\Debug\netcoreapp2.0\DotNetCore.Fundamentals.csproj.CoreCompileInputs.cache
+D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\DotNetCore.Fundamentals\obj\Debug\netcoreapp2.0\DotNetCore.Fundamentals.AssemblyInfoInputs.cache
+D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\DotNetCore.Fundamentals\obj\Debug\netcoreapp2.0\DotNetCore.Fundamentals.AssemblyInfo.cs
+D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\DotNetCore.Fundamentals\obj\Debug\netcoreapp2.0\DotNetCore.Fundamentals.dll
+D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\DotNetCore.Fundamentals\obj\Debug\netcoreapp2.0\DotNetCore.Fundamentals.pdb

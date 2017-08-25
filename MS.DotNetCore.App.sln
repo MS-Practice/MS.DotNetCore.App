@@ -9,7 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CustomModelBindingSample", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AuthoringTagHelpers", "AuthoringTagHelpers\AuthoringTagHelpers.csproj", "{C8C59736-E5FC-4E15-A900-DCF11A7059D1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetCore.Fundamentals", "DotNetCore.Fundamentals\DotNetCore.Fundamentals.csproj", "{8714D84F-49EF-469C-AB13-EAD31560B15C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetCore.Fundamentals", "DotNetCore.Fundamentals\DotNetCore.Fundamentals.csproj", "{8714D84F-49EF-469C-AB13-EAD31560B15C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "examples", "examples", "{42780C51-9060-4603-ACC7-07990A970BDC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UrlWriting.Demo", "UrlWriting.Demo\UrlWriting.Demo.csproj", "{60D243B6-A351-42DB-A4D9-682621635DD0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,9 +37,16 @@ Global
 		{8714D84F-49EF-469C-AB13-EAD31560B15C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8714D84F-49EF-469C-AB13-EAD31560B15C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8714D84F-49EF-469C-AB13-EAD31560B15C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60D243B6-A351-42DB-A4D9-682621635DD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60D243B6-A351-42DB-A4D9-682621635DD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60D243B6-A351-42DB-A4D9-682621635DD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60D243B6-A351-42DB-A4D9-682621635DD0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{60D243B6-A351-42DB-A4D9-682621635DD0} = {42780C51-9060-4603-ACC7-07990A970BDC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {85BBD894-C5B7-46AF-8E87-AEEEB7DEC542}
