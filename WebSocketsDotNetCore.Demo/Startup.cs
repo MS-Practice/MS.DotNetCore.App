@@ -9,14 +9,25 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using System.Threading;
 using Microsoft.Extensions.Logging;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Identity;
+using WebSocketsDotNetCore.Demo.Models;
+using System.Globalization;
+using WebSocketsDotNetCore.Demo.Services;
+using Microsoft.AspNetCore.Localization;
 
 namespace WebSocketsDotNetCore.Demo
 {
     public class Startup
     {
-        public Startup(IConfiguration configuration)
+        public Startup(IHostingEnvironment env)
         {
-            Configuration = configuration;
+            var builder = new ConfigurationBuilder()
+                .SetBasePath(env.ContentRootPath)
+                .AddJsonFile("appsettings.json", optional: true, reloadOnChange: true)
+                .AddJsonFile($"appsettings.{env.EnvironmentName}.json", optional: true)
+                .AddEnvironmentVariables();
+            Configuration = builder.Build();
         }
 
         public IConfiguration Configuration { get; }
@@ -24,7 +35,47 @@ namespace WebSocketsDotNetCore.Demo
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddOptions();
+            services.Configure<MyOptions>(Configuration);
             //services.AddMvc();
+            services.AddDbContext<ApplicationDbContext>(options =>
+            {
+                options.UseSqlServer(Configuration["Data:DefaultConnection:ConnectionString"]);
+            });
+
+            services.AddIdentity<ApplicationUser, IdentityRole>()
+                .AddEntityFrameworkStores<ApplicationDbContext>()
+                .AddDefaultTokenProviders();
+
+            services.AddLocalization(options =>
+            {
+                options.ResourcesPath = "Resources";
+            });
+
+            services.AddMvc()
+                .AddViewLocalization(Microsoft.AspNetCore.Mvc.Razor.LanguageViewLocationExpanderFormat.Suffix)
+                .AddDataAnnotationsLocalization();
+
+            services.AddTransient<IEmailSender, AuthMessageSender>();
+            services.AddTransient<ISmsSender, AuthMessageSender>();
+            //配置本地化资源选项配置
+            services.Configure<RequestLocalizationOptions>(options =>
+            {
+                var supportCultures = new[]
+                {
+                    new CultureInfo("en-US"),
+                    new CultureInfo("fr")
+                };
+                //设置本地化默认配置
+                options.DefaultRequestCulture = new Microsoft.AspNetCore.Localization.RequestCulture(culture: "en-US", uiCulture: "es-US");
+                options.SupportedCultures = supportCultures;
+                options.SupportedUICultures = supportCultures;
+                //添加本地资源，删除
+                options.RequestCultureProviders.Add(new CustomRequestCultureProvider(async context =>
+                {
+                    return new ProviderCultureResult("en");
+                }));
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -37,6 +88,38 @@ namespace WebSocketsDotNetCore.Demo
             {
                 app.UseDeveloperExceptionPage();
             }
+            else
+            {
+                app.UseExceptionHandler("/Home/Error");
+                try
+                {
+                    using (var serviceScope = app.ApplicationServices.GetRequiredService<IServiceScopeFactory>().CreateScope())
+                    {
+                        serviceScope.ServiceProvider.GetService<ApplicationDbContext>()
+                            .Database.Migrate();
+                    }
+                }
+                catch { }
+            }
+
+            //支持本地化列表
+            var supportedCultures = new[] {
+                new CultureInfo("en-US"),
+                new CultureInfo("en-AU"),
+                new CultureInfo("en-GB"),
+                new CultureInfo("en"),
+                new CultureInfo("es-ES"),
+                new CultureInfo("es-MX"),
+                new CultureInfo("es"),
+                new CultureInfo("fr-FR"),
+                new CultureInfo("fr"),
+            };
+            app.UseRequestLocalization(new RequestLocalizationOptions
+            {
+                DefaultRequestCulture = new RequestCulture("en-US"),
+                SupportedCultures = supportedCultures,
+                SupportedUICultures = supportedCultures
+            });
 
 #if NoOptions
             #region UseWebSockets

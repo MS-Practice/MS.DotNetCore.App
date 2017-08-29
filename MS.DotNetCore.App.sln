@@ -15,9 +15,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "examples", "examples", "{42
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UrlWriting.Demo", "UrlWriting.Demo\UrlWriting.Demo.csproj", "{60D243B6-A351-42DB-A4D9-682621635DD0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ErrorHandling.Demo", "ErrorHandling.Demo\ErrorHandling.Demo.csproj", "{D2926FAE-972F-4CFA-8057-0357FB89BCB0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ErrorHandling.Demo", "ErrorHandling.Demo\ErrorHandling.Demo.csproj", "{D2926FAE-972F-4CFA-8057-0357FB89BCB0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebSocketsDotNetCore.Demo", "WebSocketsDotNetCore.Demo\WebSocketsDotNetCore.Demo.csproj", "{524A6FDF-B55C-4DFF-9C88-D3D036579F1A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebSocketsDotNetCore.Demo", "WebSocketsDotNetCore.Demo\WebSocketsDotNetCore.Demo.csproj", "{524A6FDF-B55C-4DFF-9C88-D3D036579F1A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

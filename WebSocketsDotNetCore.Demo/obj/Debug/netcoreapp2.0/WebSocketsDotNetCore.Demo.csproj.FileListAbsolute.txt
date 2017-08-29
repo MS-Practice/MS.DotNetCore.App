@@ -9,3 +9,7 @@ D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\WebSocketsDotNetCore.De
 D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\WebSocketsDotNetCore.Demo\obj\Debug\netcoreapp2.0\WebSocketsDotNetCore.Demo.dll
 D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\WebSocketsDotNetCore.Demo\obj\Debug\netcoreapp2.0\WebSocketsDotNetCore.Demo.pdb
 D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\WebSocketsDotNetCore.Demo\obj\Debug\netcoreapp2.0\WebSocketsDotNetCore.Demo.csprojResolveAssemblyReference.cache
+D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\WebSocketsDotNetCore.Demo\bin\Debug\netcoreapp2.0\es\WebSocketsDotNetCore.Demo.resources.dll
+D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\WebSocketsDotNetCore.Demo\obj\Debug\netcoreapp2.0\WebSocketsDotNetCore.Demo.Resources.Welcome.es.resources
+D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\WebSocketsDotNetCore.Demo\obj\Debug\netcoreapp2.0\WebSocketsDotNetCore.Demo.csproj.GenerateResource.Cache
+D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\WebSocketsDotNetCore.Demo\obj\Debug\netcoreapp2.0\es\WebSocketsDotNetCore.Demo.resources.dll
