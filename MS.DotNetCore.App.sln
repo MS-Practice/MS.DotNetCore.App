@@ -19,6 +19,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ErrorHandling.Demo", "Error
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebSocketsDotNetCore.Demo", "WebSocketsDotNetCore.Demo\WebSocketsDotNetCore.Demo.csproj", "{524A6FDF-B55C-4DFF-9C88-D3D036579F1A}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Configuration.Demo", "Configuration.Demo\Configuration.Demo.csproj", "{3A2C88A7-8B26-4EAB-8E55-EBC1DD192C41}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Configuration.IOptionsSnapshot.Demo", "Configuration.IOptionsSnapshot.Demo\Configuration.IOptionsSnapshot.Demo.csproj", "{0160E309-D732-43A5-9277-468DCF062BA2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -53,6 +57,14 @@ Global
 		{524A6FDF-B55C-4DFF-9C88-D3D036579F1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{524A6FDF-B55C-4DFF-9C88-D3D036579F1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{524A6FDF-B55C-4DFF-9C88-D3D036579F1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A2C88A7-8B26-4EAB-8E55-EBC1DD192C41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A2C88A7-8B26-4EAB-8E55-EBC1DD192C41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A2C88A7-8B26-4EAB-8E55-EBC1DD192C41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A2C88A7-8B26-4EAB-8E55-EBC1DD192C41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0160E309-D732-43A5-9277-468DCF062BA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0160E309-D732-43A5-9277-468DCF062BA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0160E309-D732-43A5-9277-468DCF062BA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0160E309-D732-43A5-9277-468DCF062BA2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -61,6 +73,8 @@ Global
 		{60D243B6-A351-42DB-A4D9-682621635DD0} = {42780C51-9060-4603-ACC7-07990A970BDC}
 		{D2926FAE-972F-4CFA-8057-0357FB89BCB0} = {42780C51-9060-4603-ACC7-07990A970BDC}
 		{524A6FDF-B55C-4DFF-9C88-D3D036579F1A} = {42780C51-9060-4603-ACC7-07990A970BDC}
+		{3A2C88A7-8B26-4EAB-8E55-EBC1DD192C41} = {42780C51-9060-4603-ACC7-07990A970BDC}
+		{0160E309-D732-43A5-9277-468DCF062BA2} = {42780C51-9060-4603-ACC7-07990A970BDC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {85BBD894-C5B7-46AF-8E87-AEEEB7DEC542}

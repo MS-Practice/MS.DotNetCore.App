@@ -1,0 +1,11 @@
+D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\Configuration.Demo\bin\Debug\netcoreapp2.0\Configuration.Demo.deps.json
+D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\Configuration.Demo\bin\Debug\netcoreapp2.0\Configuration.Demo.runtimeconfig.json
+D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\Configuration.Demo\bin\Debug\netcoreapp2.0\Configuration.Demo.runtimeconfig.dev.json
+D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\Configuration.Demo\bin\Debug\netcoreapp2.0\Configuration.Demo.dll
+D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\Configuration.Demo\obj\Debug\netcoreapp2.0\Configuration.Demo.csprojResolveAssemblyReference.cache
+D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\Configuration.Demo\obj\Debug\netcoreapp2.0\Configuration.Demo.csproj.CoreCompileInputs.cache
+D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\Configuration.Demo\obj\Debug\netcoreapp2.0\Configuration.Demo.AssemblyInfoInputs.cache
+D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\Configuration.Demo\obj\Debug\netcoreapp2.0\Configuration.Demo.AssemblyInfo.cs
+D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\Configuration.Demo\bin\Debug\netcoreapp2.0\Configuration.Demo.pdb
+D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\Configuration.Demo\obj\Debug\netcoreapp2.0\Configuration.Demo.dll
+D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\Configuration.Demo\obj\Debug\netcoreapp2.0\Configuration.Demo.pdb
