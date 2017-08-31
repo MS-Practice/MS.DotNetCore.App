@@ -1,0 +1,11 @@
+D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\Logging.Demo\bin\Debug\netcoreapp2.0\Logging.Demo.deps.json
+D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\Logging.Demo\bin\Debug\netcoreapp2.0\Logging.Demo.runtimeconfig.json
+D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\Logging.Demo\bin\Debug\netcoreapp2.0\Logging.Demo.runtimeconfig.dev.json
+D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\Logging.Demo\bin\Debug\netcoreapp2.0\Logging.Demo.dll
+D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\Logging.Demo\obj\Debug\netcoreapp2.0\Logging.Demo.csprojResolveAssemblyReference.cache
+D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\Logging.Demo\obj\Debug\netcoreapp2.0\Logging.Demo.csproj.CoreCompileInputs.cache
+D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\Logging.Demo\obj\Debug\netcoreapp2.0\Logging.Demo.AssemblyInfoInputs.cache
+D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\Logging.Demo\obj\Debug\netcoreapp2.0\Logging.Demo.AssemblyInfo.cs
+D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\Logging.Demo\bin\Debug\netcoreapp2.0\Logging.Demo.pdb
+D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\Logging.Demo\obj\Debug\netcoreapp2.0\Logging.Demo.dll
+D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\Logging.Demo\obj\Debug\netcoreapp2.0\Logging.Demo.pdb
