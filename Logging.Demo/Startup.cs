@@ -11,6 +11,9 @@ using System.Reflection;
 using Logging.Demo.Core.Interfaces;
 using Logging.Demo.Models;
 using Logging.Demo.Core.Services;
+using Autofac;
+using Logging.Demo.Core;
+using Autofac.Extensions.DependencyInjection;
 
 namespace Logging.Demo
 {
@@ -45,6 +48,21 @@ namespace Logging.Demo
             services.AddSingleton<IOperationSingletonInstance>(new Operation(Guid.Empty));
             services.AddTransient<OperationService, OperationService>();
         }
+
+#if ThirdContainerForAutofac
+        public IServiceProvider ConfigureServices(IServiceCollection services)
+        {
+            services.AddMvc();
+            //add other frameworl services
+
+            //add autofac
+            var containerBuilder = new ContainerBuilder();
+            containerBuilder.RegisterModule<DefaultModule>();
+            containerBuilder.Populate(services);
+            var container = containerBuilder.Build();
+            return new AutofacServiceProvider(container);
+        } 
+#endif
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
