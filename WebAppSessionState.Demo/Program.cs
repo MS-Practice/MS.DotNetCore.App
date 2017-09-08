@@ -9,6 +9,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
 using Microsoft.AspNetCore.Server.Kestrel.Core;
 using System.Net;
+using Microsoft.AspNetCore.Server.HttpSys;
 
 namespace WebAppSessionState.Demo
 {
@@ -44,5 +45,14 @@ namespace WebAppSessionState.Demo
         #endregion
         } 
 #endif
+
+        public static void Options(HttpSysOptions options)
+        {
+            options.Authentication.Schemes = Microsoft.AspNetCore.Server.HttpSys.AuthenticationSchemes.None;
+            options.Authentication.AllowAnonymous = true;
+            options.MaxConnections = 100;
+            options.MaxRequestBodySize = 30000000;
+            options.UrlPrefixes.Add("http://localhost:5000");
+        }
     }
 }

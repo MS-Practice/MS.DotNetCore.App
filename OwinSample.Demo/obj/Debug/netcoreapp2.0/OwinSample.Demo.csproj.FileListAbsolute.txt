@@ -1,0 +1,11 @@
+D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\OwinSample.Demo\bin\Debug\netcoreapp2.0\OwinSample.Demo.deps.json
+D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\OwinSample.Demo\bin\Debug\netcoreapp2.0\OwinSample.Demo.runtimeconfig.json
+D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\OwinSample.Demo\bin\Debug\netcoreapp2.0\OwinSample.Demo.runtimeconfig.dev.json
+D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\OwinSample.Demo\bin\Debug\netcoreapp2.0\OwinSample.Demo.dll
+D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\OwinSample.Demo\bin\Debug\netcoreapp2.0\OwinSample.Demo.pdb
+D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\OwinSample.Demo\obj\Debug\netcoreapp2.0\OwinSample.Demo.csprojResolveAssemblyReference.cache
+D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\OwinSample.Demo\obj\Debug\netcoreapp2.0\OwinSample.Demo.csproj.CoreCompileInputs.cache
+D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\OwinSample.Demo\obj\Debug\netcoreapp2.0\OwinSample.Demo.AssemblyInfoInputs.cache
+D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\OwinSample.Demo\obj\Debug\netcoreapp2.0\OwinSample.Demo.AssemblyInfo.cs
+D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\OwinSample.Demo\obj\Debug\netcoreapp2.0\OwinSample.Demo.dll
+D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\OwinSample.Demo\obj\Debug\netcoreapp2.0\OwinSample.Demo.pdb
