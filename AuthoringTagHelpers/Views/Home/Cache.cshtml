@@ -1,0 +1,19 @@
+﻿<cache enabled="true" expires-after="@TimeSpan.FromSeconds(120)">
+    Current Time Inside Cache tag Helper:@DateTime.Now
+</cache>
+<br /><br />
+<distributed-cache name="my-distributed-cache-unique-key-101">
+    Time Inside Cache Tag Helper:@DateTime.Now;
+</distributed-cache>
+
+<div class="active">
+    是否开发环境：
+    <environment names="Development">
+        <strong>HostingEnvironment.EnvironmentName is Staging or Production</strong>
+    </environment>
+    <environment names="Development">
+        <script>
+            alert("Development");
+        </script>
+    </environment>
+</div>

@@ -21,6 +21,11 @@ namespace AuthoringTagHelpers.Controllers
             });
         }
 
+        public IActionResult Cache()
+        {
+            return View();
+        }
+
         public IActionResult About()
         {
             ViewData["Message"] = "Your application description page.";

@@ -7,6 +7,7 @@ using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
+using OwinSample.Demo.Nowin;
 
 namespace OwinSample.Demo
 {
@@ -19,6 +20,9 @@ namespace OwinSample.Demo
 
         public static IWebHost BuildWebHost(string[] args) =>
             WebHost.CreateDefaultBuilder(args)
+#if ASPNETCORE_HOSTING_ON_OWIN_SERVER
+                .UseNowin()
+#endif
                 .UseStartup<Startup>()
                 .Build();
     }

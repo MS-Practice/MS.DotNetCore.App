@@ -9,6 +9,9 @@ using Microsoft.Extensions.DependencyInjection;
 using System.Text;
 using System.IO;
 using System.Globalization;
+using System.Net.WebSockets;
+using System.Threading;
+using Microsoft.AspNetCore.Http;
 
 namespace OwinSample.Demo
 {
@@ -54,6 +57,38 @@ namespace OwinSample.Demo
             {
                 pipeline(next => OwinHello);
             });
+
+            app.Use(async (context, next) =>
+            {
+                if (context.WebSockets.IsWebSocketRequest)
+                {
+                    WebSocket webSocket = await context.WebSockets.AcceptWebSocketAsync();
+                    await EchoWebSocketAsync(webSocket);
+                }
+                else
+                {
+                    await next();
+                }
+            });
+
+            app.Run(context =>
+            {
+                return context.Response.WriteAsync("Hello World");
+            });
+        }
+
+        private async Task EchoWebSocketAsync(WebSocket webSocket)
+        {
+            byte[] buffer = new byte[1024];
+            WebSocketReceiveResult receiveResult = await webSocket.ReceiveAsync(new ArraySegment<byte>(buffer), CancellationToken.None);
+            while (!webSocket.CloseStatus.HasValue)
+            {
+                await webSocket.SendAsync(new ArraySegment<byte>(buffer, 0, receiveResult.Count), receiveResult.MessageType, receiveResult.EndOfMessage, CancellationToken.None);
+                receiveResult = await webSocket.ReceiveAsync(new ArraySegment<byte>(buffer),
+                CancellationToken.None);
+            }
+
+            await webSocket.CloseAsync(receiveResult.CloseStatus.Value, receiveResult.CloseStatusDescription, CancellationToken.None);
         }
 
         public Task OwinHello(IDictionary<string,object> environment)

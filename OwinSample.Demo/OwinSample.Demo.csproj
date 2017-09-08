@@ -12,4 +12,10 @@
     <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Reference Include="Nowin">
+      <HintPath>..\lib\Nowin.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>

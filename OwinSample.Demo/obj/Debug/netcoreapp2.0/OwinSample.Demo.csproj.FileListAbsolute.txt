@@ -9,3 +9,4 @@ D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\OwinSample.Demo\obj\Deb
 D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\OwinSample.Demo\obj\Debug\netcoreapp2.0\OwinSample.Demo.AssemblyInfo.cs
 D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\OwinSample.Demo\obj\Debug\netcoreapp2.0\OwinSample.Demo.dll
 D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\OwinSample.Demo\obj\Debug\netcoreapp2.0\OwinSample.Demo.pdb
+D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\OwinSample.Demo\bin\Debug\netcoreapp2.0\Nowin.dll
