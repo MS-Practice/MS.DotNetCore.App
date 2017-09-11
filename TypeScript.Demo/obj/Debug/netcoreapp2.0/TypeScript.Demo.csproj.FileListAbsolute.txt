@@ -1,0 +1,11 @@
+D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\TypeScript.Demo\bin\Debug\netcoreapp2.0\TypeScript.Demo.deps.json
+D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\TypeScript.Demo\bin\Debug\netcoreapp2.0\TypeScript.Demo.runtimeconfig.json
+D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\TypeScript.Demo\bin\Debug\netcoreapp2.0\TypeScript.Demo.runtimeconfig.dev.json
+D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\TypeScript.Demo\bin\Debug\netcoreapp2.0\TypeScript.Demo.dll
+D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\TypeScript.Demo\obj\Debug\netcoreapp2.0\TypeScript.Demo.csprojResolveAssemblyReference.cache
+D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\TypeScript.Demo\obj\Debug\netcoreapp2.0\TypeScript.Demo.csproj.CoreCompileInputs.cache
+D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\TypeScript.Demo\obj\Debug\netcoreapp2.0\TypeScript.Demo.AssemblyInfoInputs.cache
+D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\TypeScript.Demo\obj\Debug\netcoreapp2.0\TypeScript.Demo.AssemblyInfo.cs
+D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\TypeScript.Demo\bin\Debug\netcoreapp2.0\TypeScript.Demo.pdb
+D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\TypeScript.Demo\obj\Debug\netcoreapp2.0\TypeScript.Demo.dll
+D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\TypeScript.Demo\obj\Debug\netcoreapp2.0\TypeScript.Demo.pdb
