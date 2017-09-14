@@ -34,7 +34,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lib", "lib", "{99EDC979-276
 		lib\Nowin.dll = lib\Nowin.dll
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TypeScript.Demo", "TypeScript.Demo\TypeScript.Demo.csproj", "{1E0837C0-7F7F-4EA8-AB35-A14F4995FF69}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TypeScript.Demo", "TypeScript.Demo\TypeScript.Demo.csproj", "{1E0837C0-7F7F-4EA8-AB35-A14F4995FF69}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModelsValidation.Demo", "ModelsValidation.Demo\ModelsValidation.Demo.csproj", "{BE9F556C-3D18-4E0E-8E4B-345E9A4E18E0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -94,6 +96,10 @@ Global
 		{1E0837C0-7F7F-4EA8-AB35-A14F4995FF69}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1E0837C0-7F7F-4EA8-AB35-A14F4995FF69}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1E0837C0-7F7F-4EA8-AB35-A14F4995FF69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE9F556C-3D18-4E0E-8E4B-345E9A4E18E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE9F556C-3D18-4E0E-8E4B-345E9A4E18E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE9F556C-3D18-4E0E-8E4B-345E9A4E18E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE9F556C-3D18-4E0E-8E4B-345E9A4E18E0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -107,6 +113,7 @@ Global
 		{87CE608D-C180-4911-85DD-B429F872A358} = {42780C51-9060-4603-ACC7-07990A970BDC}
 		{7E74F01B-946E-4EC7-A2CA-2E39DBFA78E2} = {42780C51-9060-4603-ACC7-07990A970BDC}
 		{2A49C307-4A7C-4F41-8748-7B1B7DD119D7} = {42780C51-9060-4603-ACC7-07990A970BDC}
+		{BE9F556C-3D18-4E0E-8E4B-345E9A4E18E0} = {42780C51-9060-4603-ACC7-07990A970BDC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {85BBD894-C5B7-46AF-8E87-AEEEB7DEC542}
