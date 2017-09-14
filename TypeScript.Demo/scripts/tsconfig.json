@@ -5,7 +5,7 @@
     "sourceMap": true,
     "target": "es5"
   },
-  "files": [ "./app.ts" ],
+  "files": [ "./app.ts","./caseType.ts" ],
   "compileOnSave": true
   //"exclude": [
   //  "node_modules",

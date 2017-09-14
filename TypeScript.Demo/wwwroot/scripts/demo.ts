@@ -1,4 +1,4 @@
-﻿//enum
+//enum
 enum Color { Red = 1, Green = 2, Blue = 3 }
 let cc: Color = Color.Blue;
 let colorName: string = Color[2];
