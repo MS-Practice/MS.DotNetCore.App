@@ -1,0 +1,41 @@
+﻿@using ViewCompanent.Demo.Models
+@addTagHelper *,ViewCompanent.Demo
+@model IEnumerable<TodoItem>
+
+<h2>Todo</h2>
+<table>
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.IsDone)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Priority)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Name)
+        </th>
+        <th></th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.IsDone)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Priority)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+        </tr>
+
+    }
+</table>
+<div>
+    @*直接使用Component.InvokeAsync调用*@
+    @await Component.InvokeAsync("PriorityList", new { maxPriority = 4, isDone = true })
+    @*或者使用TagHelper*@
+    @*<vc:priority-list max-priority="2" is-done="false">
+    </vc:priority-list>*@
+</div>

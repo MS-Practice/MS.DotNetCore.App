@@ -1,0 +1,11 @@
+D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\ViewCompanent.Demo\bin\Debug\netcoreapp2.0\ViewCompanent.Demo.deps.json
+D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\ViewCompanent.Demo\bin\Debug\netcoreapp2.0\ViewCompanent.Demo.runtimeconfig.json
+D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\ViewCompanent.Demo\bin\Debug\netcoreapp2.0\ViewCompanent.Demo.runtimeconfig.dev.json
+D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\ViewCompanent.Demo\bin\Debug\netcoreapp2.0\ViewCompanent.Demo.dll
+D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\ViewCompanent.Demo\bin\Debug\netcoreapp2.0\ViewCompanent.Demo.pdb
+D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\ViewCompanent.Demo\obj\Debug\netcoreapp2.0\ViewCompanent.Demo.csprojResolveAssemblyReference.cache
+D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\ViewCompanent.Demo\obj\Debug\netcoreapp2.0\ViewCompanent.Demo.csproj.CoreCompileInputs.cache
+D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\ViewCompanent.Demo\obj\Debug\netcoreapp2.0\ViewCompanent.Demo.AssemblyInfoInputs.cache
+D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\ViewCompanent.Demo\obj\Debug\netcoreapp2.0\ViewCompanent.Demo.AssemblyInfo.cs
+D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\ViewCompanent.Demo\obj\Debug\netcoreapp2.0\ViewCompanent.Demo.dll
+D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\ViewCompanent.Demo\obj\Debug\netcoreapp2.0\ViewCompanent.Demo.pdb
