@@ -2,6 +2,7 @@
 using System;
 using System.ComponentModel.DataAnnotations;
 using System.Collections.Generic;
+using System.Globalization;
 
 namespace ModelsValidation.Demo
 {
@@ -28,7 +29,21 @@ namespace ModelsValidation.Demo
 
         public void AddValidation(ClientModelValidationContext context)
         {
-            throw new NotImplementedException();
+            if (context == null)
+                throw new ArgumentNullException(nameof(context));
+            MergeAttribute(context.Attributes, "data-val", "true");
+            MergeAttribute(context.Attributes, "data-val-classicmovie", GetErrorMessage());
+            var year = _year.ToString(CultureInfo.InvariantCulture);
+            MergeAttribute(context.Attributes, "data-val-classicmovie-year", year);
         }
+
+        private bool MergeAttribute(IDictionary<string, string> attributes, string key, string value)
+        {
+            if (attributes.ContainsKey(key))
+                return false;
+            attributes.Add(key, value);
+            return true;
+        }
+
     }
 }

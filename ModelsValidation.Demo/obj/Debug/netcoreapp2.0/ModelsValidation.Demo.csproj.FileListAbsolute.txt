@@ -1,0 +1,11 @@
+D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\ModelsValidation.Demo\bin\Debug\netcoreapp2.0\ModelsValidation.Demo.deps.json
+D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\ModelsValidation.Demo\bin\Debug\netcoreapp2.0\ModelsValidation.Demo.runtimeconfig.json
+D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\ModelsValidation.Demo\bin\Debug\netcoreapp2.0\ModelsValidation.Demo.runtimeconfig.dev.json
+D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\ModelsValidation.Demo\bin\Debug\netcoreapp2.0\ModelsValidation.Demo.dll
+D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\ModelsValidation.Demo\bin\Debug\netcoreapp2.0\ModelsValidation.Demo.pdb
+D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\ModelsValidation.Demo\obj\Debug\netcoreapp2.0\ModelsValidation.Demo.csprojResolveAssemblyReference.cache
+D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\ModelsValidation.Demo\obj\Debug\netcoreapp2.0\ModelsValidation.Demo.csproj.CoreCompileInputs.cache
+D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\ModelsValidation.Demo\obj\Debug\netcoreapp2.0\ModelsValidation.Demo.AssemblyInfoInputs.cache
+D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\ModelsValidation.Demo\obj\Debug\netcoreapp2.0\ModelsValidation.Demo.AssemblyInfo.cs
+D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\ModelsValidation.Demo\obj\Debug\netcoreapp2.0\ModelsValidation.Demo.dll
+D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\ModelsValidation.Demo\obj\Debug\netcoreapp2.0\ModelsValidation.Demo.pdb
