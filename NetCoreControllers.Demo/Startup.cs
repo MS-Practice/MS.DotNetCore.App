@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Builder;
+﻿using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Routing;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace NetCoreControllers.Demo
@@ -33,9 +29,14 @@ namespace NetCoreControllers.Demo
             app.UseStaticFiles();
             app.UseMvc(routes =>
             {
+                routes.MapAreaRoute("blog_route", "Blog", "Manage/{controller}/{action}/{id?}");
+#if The_Same_MapAreaRoute
+                routes.MapRoute("blog_route", "Manage/{controller}/{action}/{id?}", defaults: new { area = "Blog" }, constraints: new { area = "Blog" }); 
+#endif
                 routes.MapRoute("products", "products",defaults:new { controller="MyDemo",action= "GetProducts" });
-                routes.MapRoute("default", "{controller=Home}/{action=Index}/{id?}");
+                routes.MapRoute("default", "{controller=Home}/{action=Index}/{id?}", new { country = "US" });
             });
+            
             //app.UseMvcWithDefaultRoute();
             //app.Run(async (context) =>
             //{
