@@ -1,0 +1,11 @@
+D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\NetCoreFileUploader.Demo\bin\Debug\netcoreapp2.0\NetCoreFileUploader.Demo.deps.json
+D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\NetCoreFileUploader.Demo\bin\Debug\netcoreapp2.0\NetCoreFileUploader.Demo.runtimeconfig.json
+D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\NetCoreFileUploader.Demo\bin\Debug\netcoreapp2.0\NetCoreFileUploader.Demo.runtimeconfig.dev.json
+D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\NetCoreFileUploader.Demo\bin\Debug\netcoreapp2.0\NetCoreFileUploader.Demo.dll
+D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\NetCoreFileUploader.Demo\bin\Debug\netcoreapp2.0\NetCoreFileUploader.Demo.pdb
+D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\NetCoreFileUploader.Demo\obj\Debug\netcoreapp2.0\NetCoreFileUploader.Demo.csprojResolveAssemblyReference.cache
+D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\NetCoreFileUploader.Demo\obj\Debug\netcoreapp2.0\NetCoreFileUploader.Demo.csproj.CoreCompileInputs.cache
+D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\NetCoreFileUploader.Demo\obj\Debug\netcoreapp2.0\NetCoreFileUploader.Demo.AssemblyInfoInputs.cache
+D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\NetCoreFileUploader.Demo\obj\Debug\netcoreapp2.0\NetCoreFileUploader.Demo.AssemblyInfo.cs
+D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\NetCoreFileUploader.Demo\obj\Debug\netcoreapp2.0\NetCoreFileUploader.Demo.dll
+D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\NetCoreFileUploader.Demo\obj\Debug\netcoreapp2.0\NetCoreFileUploader.Demo.pdb

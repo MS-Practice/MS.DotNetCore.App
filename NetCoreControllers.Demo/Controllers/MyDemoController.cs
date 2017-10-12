@@ -28,5 +28,11 @@ namespace NetCoreControllers.Demo.Controllers
             };
             return View(productNames);
         }
+
+        [CustomActionName("MyCoolActionName")]
+        public string SomeName()
+        {
+            return ControllerContext.ActionDescriptor.ActionName;
+        }
     }
 }
