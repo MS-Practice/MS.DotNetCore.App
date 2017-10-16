@@ -42,10 +42,10 @@ namespace NetCoreControllers.Demo.Controllers
         public void Delete(int id)
         {
         }
-        [HttpGet("/products/{id}", Name = "Products_List")]
-        public IActionResult GetProduct(int id)
-        {
-            return new JsonResult(new { id = id, UserName = "MarsonShine" });
-        }
+        //[HttpGet("/products/{id}", Name = "Products_List")]
+        //public IActionResult GetProduct(int id)
+        //{
+        //    return new JsonResult(new { id = id, UserName = "MarsonShine" });
+        //}
     }
 }
