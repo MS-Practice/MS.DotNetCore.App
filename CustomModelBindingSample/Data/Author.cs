@@ -1,8 +1,9 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using CustomModelBindingSample.Binders;
+using Microsoft.AspNetCore.Mvc;
 
 namespace CustomModelBindingSample.Data
 {
-    //[ModelBinder(BinderType = typeof(AuthorEntityBinder))]
+    [ModelBinder(BinderType = typeof(AuthorEntityBinder))]
     public class Author
     {
         public int Id { get; set; }

@@ -22,19 +22,27 @@ namespace NetCoreControllers.Demo
             services.AddMvc()
                 .AddApplicationPart(assembly); 
 #endif
-            var assembly = typeof(Startup).GetTypeInfo().Assembly;
-            var part = new AssemblyPart(assembly);
-            services.AddMvc().ConfigureApplicationPartManager(ap =>
-            {
-                ap.ApplicationParts.Add(part);
-                ap.FeatureProviders.Add(new GenericControllerFeatureProvider());
-            });
+            //var assembly = typeof(Startup).GetTypeInfo().Assembly;
+            //var part = new AssemblyPart(assembly);
+            //services.AddMvc().ConfigureApplicationPartManager(ap =>
+            //{
+            //    ap.ApplicationParts.Add(part);
+            //    ap.FeatureProviders.Add(new GenericControllerFeatureProvider());
+            //});
 
             services.AddMvc(options =>
             {
-                options.Conventions.Add(new NamespaceRoutingConvention());
-                options.Conventions.Add(new ApplicationDescription("My Application Description"));
-                options.Conventions.Add(new MustBeInRouteParameterModelConvention());
+#if USE_ROUTINGCONVENTION
+                options.Conventions.Add(new NamespaceRoutingConvention()); 
+#endif
+                //options.Conventions.Add(new ApplicationDescription("My Application Description"));
+                //options.Conventions.Add(new MustBeInRouteParameterModelConvention());
+            })
+            .ConfigureApplicationPartManager(ap=> {
+                //ap.ApplicationParts.Add(part);
+#if USE_CONTROLLERFEATURE_PROVIDER_GLOBEL_FILTER
+                ap.FeatureProviders.Add(new GenericControllerFeatureProvider()); 
+#endif
             });
 
             //ServiceFilterAttribute
@@ -59,19 +67,19 @@ namespace NetCoreControllers.Demo
                 app.UseDeveloperExceptionPage();
             }
             app.UseStaticFiles();
-            app.UseMvc(routes =>
-            {
-                routes.MapAreaRoute("blog_route", "Blog", "Manage/{controller}/{action}/{id?}");
-#if The_Same_MapAreaRoute
-                routes.MapRoute("blog_route", "Manage/{controller}/{action}/{id?}", defaults: new { area = "Blog" }, constraints: new { area = "Blog" }); 
-#endif
-                routes.MapRoute(name: "Products", template: "{area:exists}/{controller=Home}/{action=Index}");
-                //routes.MapRoute("products", "products",defaults:new { controller="MyDemo",action= "GetProducts" });
-                //routes.MapRoute("getName", "{controller=Home}/{action=Hi}/{name?}", defaults: new { name = "" });
-                routes.MapRoute("default", "{controller=Home}/{action=Index}/{id?}", new { country = "US" });
-            });
+            //            app.UseMvc(routes =>
+            //            {
+            //                routes.MapAreaRoute("blog_route", "Blog", "Manage/{controller}/{action}/{id?}");
+            //#if The_Same_MapAreaRoute
+            //                routes.MapRoute("blog_route", "Manage/{controller}/{action}/{id?}", defaults: new { area = "Blog" }, constraints: new { area = "Blog" }); 
+            //#endif
+            //                routes.MapRoute(name: "Products", template: "{area:exists}/{controller=Home}/{action=Index}");
+            //                //routes.MapRoute("products", "products",defaults:new { controller="MyDemo",action= "GetProducts" });
+            //                //routes.MapRoute("getName", "{controller=Home}/{action=Hi}/{name?}", defaults: new { name = "" });
+            //                routes.MapRoute("default", "{controller=Home}/{action=Index}/{id?}", new { country = "US" });
+            //            });
 
-            //app.UseMvcWithDefaultRoute();
+            app.UseMvcWithDefaultRoute();
             //app.Run(async (context) =>
             //{
             //    await context.Response.WriteAsync("Hello World!");
