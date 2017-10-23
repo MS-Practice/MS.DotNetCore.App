@@ -5,6 +5,8 @@ using Microsoft.AspNetCore.Mvc.Razor;
 using Microsoft.AspNetCore.Routing;
 using Microsoft.Extensions.DependencyInjection;
 using NetCoreControllers.Demo.Filters;
+using NetCoreControllers.Demo.Formatters;
+using NetCoreControllers.Demo.Model;
 using NetCoreControllers.Demo.Providers;
 using System.Reflection;
 
@@ -37,6 +39,9 @@ namespace NetCoreControllers.Demo
 #endif
                 //options.Conventions.Add(new ApplicationDescription("My Application Description"));
                 //options.Conventions.Add(new MustBeInRouteParameterModelConvention());
+                //添加自定义formmattters
+                options.InputFormatters.Add(new VcardInputFormatter());
+                options.OutputFormatters.Add(new VcardOutputFormatter());
             })
             .ConfigureApplicationPartManager(ap=> {
                 //ap.ApplicationParts.Add(part);
@@ -57,6 +62,8 @@ namespace NetCoreControllers.Demo
         options.AreaViewLocationFormats.Add("/Views/Shared/{0}.cshtml");
     }); 
 #endif
+            //注册DI服务类
+            services.AddSingleton<IContactRepository, ContactRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
