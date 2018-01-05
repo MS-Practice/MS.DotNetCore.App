@@ -1,0 +1,13 @@
+D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\AspNetCore\bin\Debug\netcoreapp2.0\AspNetCore.deps.json
+D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\AspNetCore\bin\Debug\netcoreapp2.0\AspNetCore.runtimeconfig.json
+D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\AspNetCore\bin\Debug\netcoreapp2.0\AspNetCore.runtimeconfig.dev.json
+D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\AspNetCore\bin\Debug\netcoreapp2.0\AspNetCore.dll
+D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\AspNetCore\bin\Debug\netcoreapp2.0\AspNetCore.pdb
+D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\AspNetCore\obj\Debug\netcoreapp2.0\AspNetCore.csprojResolveAssemblyReference.cache
+D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\AspNetCore\obj\Debug\netcoreapp2.0\AspNetCore.csproj.CoreCompileInputs.cache
+D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\AspNetCore\obj\Debug\netcoreapp2.0\AspNetCore.AssemblyInfoInputs.cache
+D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\AspNetCore\obj\Debug\netcoreapp2.0\AspNetCore.AssemblyInfo.cs
+D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\AspNetCore\obj\Debug\netcoreapp2.0\AspNetCore.dll
+D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\AspNetCore\obj\Debug\netcoreapp2.0\AspNetCore.pdb
+D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\AspNetCore\bin\Debug\netcoreapp2.0\Microsoft.Extensions.DependencyInjection.dll
+D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\AspNetCore\bin\Debug\netcoreapp2.0\Microsoft.Extensions.DependencyInjection.xml

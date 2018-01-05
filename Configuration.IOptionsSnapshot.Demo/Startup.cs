@@ -53,7 +53,7 @@ namespace Configuration.IOptionsSnapshot.Demo
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddScoped<Controller>();
-            services.Configure<TimeOptions>(Configuration.GetSection("Time"));
+            //services.Configure<TimeOptions>("Time", Configuration);
         }
 
         public IConfigurationRoot Configuration { get; set; }
