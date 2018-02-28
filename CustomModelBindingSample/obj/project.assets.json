@@ -13145,6 +13145,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "http://10.1.7.158/nuget/default/": {},
         "https://www.nuget.org/api/v2/": {}
       },
       "frameworks": {
