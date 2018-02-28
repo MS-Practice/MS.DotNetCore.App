@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27130.2010
+VisualStudioVersion = 15.0.26730.16
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RazorPagesContacts", "RazorPagesContacts\RazorPagesContacts.csproj", "{0892158F-916E-42FB-A316-09F4E9A4588D}"
 EndProject
@@ -46,7 +46,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetCoreFileUploader.Demo", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculateGCMemory.Demo", "CalculateGCMemory.Demo\CalculateGCMemory.Demo.csproj", "{55821FEC-68BD-4713-9E26-4267993997E2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetCore", "AspNetCore\AspNetCore.csproj", "{4C53C3B0-1FDD-4C15-BE3D-6B5AD74F35F0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspNetCore", "AspNetCore\AspNetCore.csproj", "{4C53C3B0-1FDD-4C15-BE3D-6B5AD74F35F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetCore.EFCore", "AspNetCore.EFCore\AspNetCore.EFCore.csproj", "{7C0E9DC3-BCE5-4AFC-8E07-63C795682ADB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -130,6 +132,10 @@ Global
 		{4C53C3B0-1FDD-4C15-BE3D-6B5AD74F35F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4C53C3B0-1FDD-4C15-BE3D-6B5AD74F35F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4C53C3B0-1FDD-4C15-BE3D-6B5AD74F35F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C0E9DC3-BCE5-4AFC-8E07-63C795682ADB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C0E9DC3-BCE5-4AFC-8E07-63C795682ADB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C0E9DC3-BCE5-4AFC-8E07-63C795682ADB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C0E9DC3-BCE5-4AFC-8E07-63C795682ADB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -149,6 +155,7 @@ Global
 		{A1FACEE5-4647-45AD-8AA3-0E0AC16E7E97} = {42780C51-9060-4603-ACC7-07990A970BDC}
 		{55821FEC-68BD-4713-9E26-4267993997E2} = {42780C51-9060-4603-ACC7-07990A970BDC}
 		{4C53C3B0-1FDD-4C15-BE3D-6B5AD74F35F0} = {42780C51-9060-4603-ACC7-07990A970BDC}
+		{7C0E9DC3-BCE5-4AFC-8E07-63C795682ADB} = {42780C51-9060-4603-ACC7-07990A970BDC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {85BBD894-C5B7-46AF-8E87-AEEEB7DEC542}
