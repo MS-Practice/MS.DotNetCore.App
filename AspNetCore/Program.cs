@@ -1,5 +1,6 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 using System;
+using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 
@@ -33,16 +34,22 @@ namespace AspNetCore
             //startup.Dispose();
             //GC.Collect();
 
-            var services = new ServiceCollection();
+            //var services = new ServiceCollection();
 
 
-            services.AddScoped<Startup>();
-            IServiceProvider serviceProvider = new DefaultServiceProviderFactory().CreateServiceProvider(services);
-            //注册
-            var scope = serviceProvider.CreateScope();
-            var startup = scope.ServiceProvider.GetService<Startup>();
-            startup.Configure("name", "value");
-            scope.Dispose();
+            //services.AddScoped<Startup>();
+            //IServiceProvider serviceProvider = new DefaultServiceProviderFactory().CreateServiceProvider(services);
+            ////注册
+            //var scope = serviceProvider.CreateScope();
+            //var startup = scope.ServiceProvider.GetService<Startup>();
+            //startup.Configure("name", "value");
+            //scope.Dispose();
+
+
+            IEnumerable<string> enumerable = new[] { "xxx", "eee", "rrr", "ttt" };
+            Random rd = new Random(10000);
+            var result = enumerable.RandomEnumerableValue(rd);
+            Console.Write(result);
             Console.Read();
         }
     }
