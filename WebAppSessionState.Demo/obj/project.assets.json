@@ -5788,13 +5788,13 @@
       "type": "package",
       "path": "microsoft.codeanalysis.analyzers/1.1.0",
       "files": [
-        "Microsoft.CodeAnalysis.Analyzers.1.1.0.nupkg.sha512",
-        "Microsoft.CodeAnalysis.Analyzers.nuspec",
         "ThirdPartyNotices.rtf",
         "analyzers/dotnet/cs/Microsoft.CodeAnalysis.Analyzers.dll",
         "analyzers/dotnet/cs/Microsoft.CodeAnalysis.CSharp.Analyzers.dll",
         "analyzers/dotnet/vb/Microsoft.CodeAnalysis.Analyzers.dll",
         "analyzers/dotnet/vb/Microsoft.CodeAnalysis.VisualBasic.Analyzers.dll",
+        "microsoft.codeanalysis.analyzers.1.1.0.nupkg.sha512",
+        "microsoft.codeanalysis.analyzers.nuspec",
         "tools/install.ps1",
         "tools/uninstall.ps1"
       ]
@@ -6059,13 +6059,8 @@
         "microsoft.dotnet.platformabstractions.nuspec"
       ]
     },
-<<<<<<< HEAD
-    "Microsoft.EntityFrameworkCore/2.0.0": {
-      "sha512": "oysCSI4Rol0rgl7dF88GepyXlcnI+VjSUVwFAK1mQgb7Vy0nvlp3fP8OltP4oXLfhv9UhM6ULRN9/5AkLZdwnQ==",
-=======
     "Microsoft.EntityFrameworkCore/2.0.1": {
       "sha512": "RlwInZHfIUWwFgQJCpUMKrLeE8QJ64MA/GxD881oTMFa9j7iiGKCtI0xK4J1NNgRKvgVDPJbh9CIGJiu0KEdeA==",
->>>>>>> a87c788c03333af8cb36f78bc343b7253b2f70ba
       "type": "package",
       "path": "microsoft.entityframeworkcore/2.0.1",
       "files": [
@@ -9605,8 +9600,6 @@
       "type": "package",
       "path": "system.linq.queryable/4.0.1",
       "files": [
-        "System.Linq.Queryable.4.0.1.nupkg.sha512",
-        "System.Linq.Queryable.nuspec",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/monoandroid10/_._",
@@ -9654,7 +9647,9 @@
         "ref/xamarinios10/_._",
         "ref/xamarinmac20/_._",
         "ref/xamarintvos10/_._",
-        "ref/xamarinwatchos10/_._"
+        "ref/xamarinwatchos10/_._",
+        "system.linq.queryable.4.0.1.nupkg.sha512",
+        "system.linq.queryable.nuspec"
       ]
     },
     "System.Net.Http/4.3.0": {
@@ -10927,8 +10922,6 @@
       "type": "package",
       "path": "system.runtime.serialization.json/4.0.2",
       "files": [
-        "System.Runtime.Serialization.Json.4.0.2.nupkg.sha512",
-        "System.Runtime.Serialization.Json.nuspec",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -10976,7 +10969,9 @@
         "ref/xamarinios10/_._",
         "ref/xamarinmac20/_._",
         "ref/xamarintvos10/_._",
-        "ref/xamarinwatchos10/_._"
+        "ref/xamarinwatchos10/_._",
+        "system.runtime.serialization.json.4.0.2.nupkg.sha512",
+        "system.runtime.serialization.json.nuspec"
       ]
     },
     "System.Runtime.Serialization.Primitives/4.3.0": {
@@ -12583,13 +12578,6 @@
     "frameworks": {
       "netcoreapp2.0": {
         "dependencies": {
-<<<<<<< HEAD
-=======
-          "Microsoft.AspNetCore.All": {
-            "target": "Package",
-            "version": "[2.0.5, )"
-          },
->>>>>>> a87c788c03333af8cb36f78bc343b7253b2f70ba
           "Microsoft.NETCore.App": {
             "target": "Package",
             "version": "2.0.0",
@@ -12597,7 +12585,7 @@
           },
           "Microsoft.AspNetCore.All": {
             "target": "Package",
-            "version": "2.0.0"
+            "version": "2.0.5"
           }
         },
         "imports": [

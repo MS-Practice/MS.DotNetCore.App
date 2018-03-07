@@ -6059,13 +6059,8 @@
         "microsoft.dotnet.platformabstractions.nuspec"
       ]
     },
-<<<<<<< HEAD
-    "Microsoft.EntityFrameworkCore/2.0.0": {
-      "sha512": "oysCSI4Rol0rgl7dF88GepyXlcnI+VjSUVwFAK1mQgb7Vy0nvlp3fP8OltP4oXLfhv9UhM6ULRN9/5AkLZdwnQ==",
-=======
     "Microsoft.EntityFrameworkCore/2.0.1": {
       "sha512": "RlwInZHfIUWwFgQJCpUMKrLeE8QJ64MA/GxD881oTMFa9j7iiGKCtI0xK4J1NNgRKvgVDPJbh9CIGJiu0KEdeA==",
->>>>>>> a87c788c03333af8cb36f78bc343b7253b2f70ba
       "type": "package",
       "path": "microsoft.entityframeworkcore/2.0.1",
       "files": [
@@ -12585,20 +12580,12 @@
         "dependencies": {
           "Microsoft.NETCore.App": {
             "target": "Package",
-<<<<<<< HEAD
             "version": "2.0.0",
             "autoReferenced": true
           },
           "Microsoft.AspNetCore.All": {
             "target": "Package",
-            "version": "2.0.0"
-=======
-            "version": "[2.0.5, )"
->>>>>>> a87c788c03333af8cb36f78bc343b7253b2f70ba
-          },
-          "Microsoft.AspNetCore.Rewrite": {
-            "target": "Package",
-            "version": "2.0.0"
+            "version": "2.0.5"
           }
         },
         "imports": [
@@ -12608,5 +12595,13 @@
         "warn": true
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "读取缓存文件 C:\\MSProject\\DotNetCore\\MS.DotNetCore.App\\DotNetCore.Fundamentals\\obj\\DotNetCore.Fundamentals.csproj.nuget.cache 时遇到问题: Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

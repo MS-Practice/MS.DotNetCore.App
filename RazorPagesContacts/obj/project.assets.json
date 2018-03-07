@@ -9927,11 +9927,7 @@
           },
           "Microsoft.EntityFrameworkCore.Tools": {
             "target": "Package",
-<<<<<<< HEAD
             "version": "2.0.0"
-=======
-            "version": "[2.0.1, )"
->>>>>>> a87c788c03333af8cb36f78bc343b7253b2f70ba
           },
           "Microsoft.EntityFrameworkCore.InMemory": {
             "target": "Package",
@@ -9939,7 +9935,7 @@
           },
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
             "target": "Package",
-            "version": "2.0.0"
+            "version": "2.0.2"
           },
           "Microsoft.EntityFrameworkCore.Design": {
             "target": "Package",
@@ -9968,11 +9964,7 @@
           },
           "Microsoft.AspNetCore.StaticFiles": {
             "target": "Package",
-<<<<<<< HEAD
-            "version": "2.0.0"
-=======
-            "version": "[2.0.2, )"
->>>>>>> a87c788c03333af8cb36f78bc343b7253b2f70ba
+            "version": "2.0.1"
           }
         },
         "imports": [
@@ -9982,5 +9974,13 @@
         "warn": true
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "读取缓存文件 C:\\MSProject\\DotNetCore\\MS.DotNetCore.App\\RazorPagesContacts\\obj\\RazorPagesContacts.csproj.nuget.cache 时遇到问题: Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
