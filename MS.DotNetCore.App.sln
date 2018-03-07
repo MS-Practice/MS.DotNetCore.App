@@ -56,6 +56,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MediatR", "..\..\MediatR\sr
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MediatR.Extensions.Microsoft.DependencyInjection", "..\..\MediatR.Extensions.Microsoft.DependencyInjection\src\MediatR.Extensions.Microsoft.DependencyInjection\MediatR.Extensions.Microsoft.DependencyInjection.csproj", "{BB238D0B-DFA3-4FB1-B8EC-A59456B3FFBF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ResilientHttpClientByPolly", "ResilientHttpClientByPolly\ResilientHttpClientByPolly.csproj", "{7CA5CB80-60F8-449B-95F2-C284806EA26C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -150,6 +152,10 @@ Global
 		{BB238D0B-DFA3-4FB1-B8EC-A59456B3FFBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BB238D0B-DFA3-4FB1-B8EC-A59456B3FFBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BB238D0B-DFA3-4FB1-B8EC-A59456B3FFBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CA5CB80-60F8-449B-95F2-C284806EA26C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CA5CB80-60F8-449B-95F2-C284806EA26C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CA5CB80-60F8-449B-95F2-C284806EA26C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CA5CB80-60F8-449B-95F2-C284806EA26C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
