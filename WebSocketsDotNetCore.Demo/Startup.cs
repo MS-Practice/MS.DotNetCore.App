@@ -71,9 +71,9 @@ namespace WebSocketsDotNetCore.Demo
                 options.SupportedCultures = supportCultures;
                 options.SupportedUICultures = supportCultures;
                 //添加本地资源，删除
-                options.RequestCultureProviders.Add(new CustomRequestCultureProvider(async context =>
+                options.RequestCultureProviders.Add(new CustomRequestCultureProvider(context =>
                 {
-                    return new ProviderCultureResult("en");
+                    return Task.FromResult(new ProviderCultureResult("en"));
                 }));
             });
         }

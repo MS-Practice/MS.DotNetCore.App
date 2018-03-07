@@ -9,3 +9,14 @@ D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\Configuration.IOptionsS
 D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\Configuration.IOptionsSnapshot.Demo\obj\Debug\netcoreapp2.0\Configuration.IOptionsSnapshot.Demo.AssemblyInfo.cs
 D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\Configuration.IOptionsSnapshot.Demo\obj\Debug\netcoreapp2.0\Configuration.IOptionsSnapshot.Demo.dll
 D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\Configuration.IOptionsSnapshot.Demo\obj\Debug\netcoreapp2.0\Configuration.IOptionsSnapshot.Demo.pdb
+C:\MSProject\DotNetCore\MS.DotNetCore.App\Configuration.IOptionsSnapshot.Demo\bin\Debug\netcoreapp2.0\Configuration.IOptionsSnapshot.Demo.deps.json
+C:\MSProject\DotNetCore\MS.DotNetCore.App\Configuration.IOptionsSnapshot.Demo\bin\Debug\netcoreapp2.0\Configuration.IOptionsSnapshot.Demo.runtimeconfig.json
+C:\MSProject\DotNetCore\MS.DotNetCore.App\Configuration.IOptionsSnapshot.Demo\bin\Debug\netcoreapp2.0\Configuration.IOptionsSnapshot.Demo.runtimeconfig.dev.json
+C:\MSProject\DotNetCore\MS.DotNetCore.App\Configuration.IOptionsSnapshot.Demo\bin\Debug\netcoreapp2.0\Configuration.IOptionsSnapshot.Demo.dll
+C:\MSProject\DotNetCore\MS.DotNetCore.App\Configuration.IOptionsSnapshot.Demo\bin\Debug\netcoreapp2.0\Configuration.IOptionsSnapshot.Demo.pdb
+C:\MSProject\DotNetCore\MS.DotNetCore.App\Configuration.IOptionsSnapshot.Demo\obj\Debug\netcoreapp2.0\Configuration.IOptionsSnapshot.Demo.csprojResolveAssemblyReference.cache
+C:\MSProject\DotNetCore\MS.DotNetCore.App\Configuration.IOptionsSnapshot.Demo\obj\Debug\netcoreapp2.0\Configuration.IOptionsSnapshot.Demo.csproj.CoreCompileInputs.cache
+C:\MSProject\DotNetCore\MS.DotNetCore.App\Configuration.IOptionsSnapshot.Demo\obj\Debug\netcoreapp2.0\Configuration.IOptionsSnapshot.Demo.AssemblyInfoInputs.cache
+C:\MSProject\DotNetCore\MS.DotNetCore.App\Configuration.IOptionsSnapshot.Demo\obj\Debug\netcoreapp2.0\Configuration.IOptionsSnapshot.Demo.AssemblyInfo.cs
+C:\MSProject\DotNetCore\MS.DotNetCore.App\Configuration.IOptionsSnapshot.Demo\obj\Debug\netcoreapp2.0\Configuration.IOptionsSnapshot.Demo.dll
+C:\MSProject\DotNetCore\MS.DotNetCore.App\Configuration.IOptionsSnapshot.Demo\obj\Debug\netcoreapp2.0\Configuration.IOptionsSnapshot.Demo.pdb

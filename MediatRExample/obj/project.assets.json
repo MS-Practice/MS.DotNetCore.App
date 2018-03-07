@@ -203,6 +203,31 @@
           }
         }
       },
+      "MediatR/4.0.1": {
+        "type": "package",
+        "dependencies": {
+          "NETStandard.Library": "1.6.1"
+        },
+        "compile": {
+          "lib/netstandard1.1/MediatR.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.1/MediatR.dll": {}
+        }
+      },
+      "MediatR.Extensions.Microsoft.DependencyInjection/4.0.0": {
+        "type": "package",
+        "dependencies": {
+          "MediatR": "4.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "2.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/MediatR.Extensions.Microsoft.DependencyInjection.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/MediatR.Extensions.Microsoft.DependencyInjection.dll": {}
+        }
+      },
       "Microsoft.ApplicationInsights/2.4.0": {
         "type": "package",
         "dependencies": {
@@ -5221,33 +5246,6 @@
         "runtime": {
           "lib/netstandard1.3/Microsoft.WindowsAzure.Storage.dll": {}
         }
-      },
-      "MediatR/4.0.1": {
-        "type": "project",
-        "framework": ".NETStandard,Version=v1.1",
-        "dependencies": {
-          "NETStandard.Library": "1.6.1"
-        },
-        "compile": {
-          "bin/placeholder/MediatR.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/MediatR.dll": {}
-        }
-      },
-      "MediatR.Extensions.Microsoft.DependencyInjection/4.0.0": {
-        "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
-        "dependencies": {
-          "MediatR": "4.0.0",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "2.0.0"
-        },
-        "compile": {
-          "bin/placeholder/MediatR.Extensions.Microsoft.DependencyInjection.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/MediatR.Extensions.Microsoft.DependencyInjection.dll": {}
-        }
       }
     }
   },
@@ -5374,6 +5372,27 @@
         "runtimes/win-arm/native/libuv.dll",
         "runtimes/win-x64/native/libuv.dll",
         "runtimes/win-x86/native/libuv.dll"
+      ]
+    },
+    "MediatR/4.0.1": {
+      "sha512": "nIgiOuD10aSrariE29T3/NdWKfwqOfyJhuuqdSD6RJa8vvYUxLAsWZ64UwYm7pF7yPIjM36M+3W0hpyPTAj4Gg==",
+      "type": "package",
+      "path": "mediatr/4.0.1",
+      "files": [
+        "lib/net45/MediatR.dll",
+        "lib/netstandard1.1/MediatR.dll",
+        "mediatr.4.0.1.nupkg.sha512",
+        "mediatr.nuspec"
+      ]
+    },
+    "MediatR.Extensions.Microsoft.DependencyInjection/4.0.0": {
+      "sha512": "GKll1eMzYdLw3GbIQcnHqRO4CLpvFwpiL3r8e2KhxL6K+s/xcjmGCbtIrltbTnBDj1ZXBQoNJa9eAX4UrhZ6iA==",
+      "type": "package",
+      "path": "mediatr.extensions.microsoft.dependencyinjection/4.0.0",
+      "files": [
+        "lib/netstandard2.0/MediatR.Extensions.Microsoft.DependencyInjection.dll",
+        "mediatr.extensions.microsoft.dependencyinjection.4.0.0.nupkg.sha512",
+        "mediatr.extensions.microsoft.dependencyinjection.nuspec"
       ]
     },
     "Microsoft.ApplicationInsights/2.4.0": {
@@ -13528,16 +13547,6 @@
         "windowsazure.storage.8.1.4.nupkg.sha512",
         "windowsazure.storage.nuspec"
       ]
-    },
-    "MediatR/4.0.1": {
-      "type": "project",
-      "path": "../../../MediatR/src/MediatR/MediatR.csproj",
-      "msbuildProject": "../../../MediatR/src/MediatR/MediatR.csproj"
-    },
-    "MediatR.Extensions.Microsoft.DependencyInjection/4.0.0": {
-      "type": "project",
-      "path": "../../../MediatR.Extensions.Microsoft.DependencyInjection/src/MediatR.Extensions.Microsoft.DependencyInjection/MediatR.Extensions.Microsoft.DependencyInjection.csproj",
-      "msbuildProject": "../../../MediatR.Extensions.Microsoft.DependencyInjection/src/MediatR.Extensions.Microsoft.DependencyInjection/MediatR.Extensions.Microsoft.DependencyInjection.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -13553,8 +13562,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Administrator\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\": {},
+    "C:\\Users\\summer\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
@@ -13563,39 +13571,29 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "D:\\MS\\Project\\dotnet\\MS.DotNetCore.App\\MS.DotNetCore.App\\MediatRExample\\MediatRExample.csproj",
+      "projectUniqueName": "C:\\MSProject\\DotNetCore\\MS.DotNetCore.App\\MediatRExample\\MediatRExample.csproj",
       "projectName": "MediatRExample",
-      "projectPath": "D:\\MS\\Project\\dotnet\\MS.DotNetCore.App\\MS.DotNetCore.App\\MediatRExample\\MediatRExample.csproj",
-      "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "D:\\MS\\Project\\dotnet\\MS.DotNetCore.App\\MS.DotNetCore.App\\MediatRExample\\obj\\",
+      "projectPath": "C:\\MSProject\\DotNetCore\\MS.DotNetCore.App\\MediatRExample\\MediatRExample.csproj",
+      "packagesPath": "C:\\Users\\summer\\.nuget\\packages\\",
+      "outputPath": "C:\\MSProject\\DotNetCore\\MS.DotNetCore.App\\MediatRExample\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
+        "C:\\Users\\summer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "http://10.1.7.158/nuget/default/": {},
-        "https://www.nuget.org/api/v2/": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp2.0": {
-          "projectReferences": {
-            "D:\\MS\\Project\\dotnet\\MediatR.Extensions.Microsoft.DependencyInjection\\src\\MediatR.Extensions.Microsoft.DependencyInjection\\MediatR.Extensions.Microsoft.DependencyInjection.csproj": {
-              "projectPath": "D:\\MS\\Project\\dotnet\\MediatR.Extensions.Microsoft.DependencyInjection\\src\\MediatR.Extensions.Microsoft.DependencyInjection\\MediatR.Extensions.Microsoft.DependencyInjection.csproj"
-            },
-            "D:\\MS\\Project\\dotnet\\MediatR\\src\\MediatR\\MediatR.csproj": {
-              "projectPath": "D:\\MS\\Project\\dotnet\\MediatR\\src\\MediatR\\MediatR.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {
@@ -13607,30 +13605,38 @@
     "frameworks": {
       "netcoreapp2.0": {
         "dependencies": {
-          "DotNetCore.CAP": {
+          "MediatR.Extensions.Microsoft.DependencyInjection": {
             "target": "Package",
-            "version": "[2.1.3, )"
+            "version": "4.0.0"
+          },
+          "MediatR": {
+            "target": "Package",
+            "version": "4.0.1"
           },
           "DotNetCore.CAP.Kafka": {
             "target": "Package",
-            "version": "[2.1.3, )"
-          },
-          "DotNetCore.CAP.SqlServer": {
-            "target": "Package",
-            "version": "[2.1.3, )"
-          },
-          "Microsoft.AspNetCore.All": {
-            "target": "Package",
-            "version": "[2.0.5, )"
-          },
-          "Microsoft.NETCore.App": {
-            "target": "Package",
-            "version": "[2.0.0, )",
-            "autoReferenced": true
+            "version": "2.1.3"
           },
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
             "target": "Package",
-            "version": "[2.0.2, )"
+            "version": "2.0.2"
+          },
+          "DotNetCore.CAP": {
+            "target": "Package",
+            "version": "2.1.3"
+          },
+          "Microsoft.NETCore.App": {
+            "target": "Package",
+            "version": "2.0.0",
+            "autoReferenced": true
+          },
+          "DotNetCore.CAP.SqlServer": {
+            "target": "Package",
+            "version": "2.1.3"
+          },
+          "Microsoft.AspNetCore.All": {
+            "target": "Package",
+            "version": "2.0.5"
           }
         },
         "imports": [

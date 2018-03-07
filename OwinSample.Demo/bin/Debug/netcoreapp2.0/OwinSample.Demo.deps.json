@@ -24,7 +24,8 @@
       "OwinSample.Demo/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.All": "2.0.0",
-          "Microsoft.NETCore.App": "2.0.0"
+          "Microsoft.NETCore.App": "2.0.0",
+          "Nowin": "0.26.0.0"
         },
         "runtime": {
           "OwinSample.Demo.dll": {}
@@ -3794,6 +3795,14 @@
           "lib/netstandard1.3/Microsoft.WindowsAzure.Storage.dll": {}
         }
       },
+      "Nowin/0.26.0.0": {
+        "runtime": {
+          "Nowin.dll": {}
+        },
+        "compile": {
+          "Nowin.dll": {}
+        }
+      },
       "Microsoft.NETCore.App/2.0.0": {
         "dependencies": {
           "Microsoft.NETCore.DotNetHostPolicy": "2.0.0",
@@ -4674,7 +4683,7 @@
     "Microsoft.EntityFrameworkCore/2.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-wmgBEpjoxd6ElVh13dlzmsl/9BtE5lky97vutJxLwFopP0IuWAyclCC2WHoXq4bYRmtzYSpmA4Q/kNugynswSA==",
+      "sha512": "sha512-oysCSI4Rol0rgl7dF88GepyXlcnI+VjSUVwFAK1mQgb7Vy0nvlp3fP8OltP4oXLfhv9UhM6ULRN9/5AkLZdwnQ==",
       "path": "microsoft.entityframeworkcore/2.0.0",
       "hashPath": "microsoft.entityframeworkcore.2.0.0.nupkg.sha512"
     },
@@ -5979,6 +5988,11 @@
       "sha512": "sha512-W6ZZ0/o7+3Qb77mRAQyLjPudHG3OMeeQ4p9yY13PUdJArmRCx2cLMm5F4tpIjJXxzHC0ew0oK7DMDGILMdfCnw==",
       "path": "windowsazure.storage/8.1.4",
       "hashPath": "windowsazure.storage.8.1.4.nupkg.sha512"
+    },
+    "Nowin/0.26.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
     },
     "Microsoft.NETCore.App/2.0.0": {
       "type": "package",

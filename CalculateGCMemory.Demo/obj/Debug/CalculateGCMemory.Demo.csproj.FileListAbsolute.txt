@@ -5,3 +5,10 @@ D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\CalculateGCMemory.Demo\
 D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\CalculateGCMemory.Demo\obj\Debug\CalculateGCMemory.Demo.csproj.CoreCompileInputs.cache
 D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\CalculateGCMemory.Demo\obj\Debug\CalculateGCMemory.Demo.exe
 D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\CalculateGCMemory.Demo\obj\Debug\CalculateGCMemory.Demo.pdb
+C:\MSProject\DotNetCore\MS.DotNetCore.App\CalculateGCMemory.Demo\bin\Debug\CalculateGCMemory.Demo.exe.config
+C:\MSProject\DotNetCore\MS.DotNetCore.App\CalculateGCMemory.Demo\bin\Debug\CalculateGCMemory.Demo.exe
+C:\MSProject\DotNetCore\MS.DotNetCore.App\CalculateGCMemory.Demo\bin\Debug\CalculateGCMemory.Demo.pdb
+C:\MSProject\DotNetCore\MS.DotNetCore.App\CalculateGCMemory.Demo\obj\Debug\CalculateGCMemory.Demo.csprojResolveAssemblyReference.cache
+C:\MSProject\DotNetCore\MS.DotNetCore.App\CalculateGCMemory.Demo\obj\Debug\CalculateGCMemory.Demo.csproj.CoreCompileInputs.cache
+C:\MSProject\DotNetCore\MS.DotNetCore.App\CalculateGCMemory.Demo\obj\Debug\CalculateGCMemory.Demo.exe
+C:\MSProject\DotNetCore\MS.DotNetCore.App\CalculateGCMemory.Demo\obj\Debug\CalculateGCMemory.Demo.pdb

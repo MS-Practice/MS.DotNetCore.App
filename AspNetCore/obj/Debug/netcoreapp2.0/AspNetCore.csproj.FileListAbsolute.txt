@@ -11,3 +11,16 @@ D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\AspNetCore\obj\Debug\ne
 D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\AspNetCore\obj\Debug\netcoreapp2.0\AspNetCore.pdb
 D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\AspNetCore\bin\Debug\netcoreapp2.0\Microsoft.Extensions.DependencyInjection.dll
 D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\AspNetCore\bin\Debug\netcoreapp2.0\Microsoft.Extensions.DependencyInjection.xml
+C:\MSProject\DotNetCore\MS.DotNetCore.App\AspNetCore\bin\Debug\netcoreapp2.0\AspNetCore.deps.json
+C:\MSProject\DotNetCore\MS.DotNetCore.App\AspNetCore\bin\Debug\netcoreapp2.0\AspNetCore.runtimeconfig.json
+C:\MSProject\DotNetCore\MS.DotNetCore.App\AspNetCore\bin\Debug\netcoreapp2.0\AspNetCore.runtimeconfig.dev.json
+C:\MSProject\DotNetCore\MS.DotNetCore.App\AspNetCore\bin\Debug\netcoreapp2.0\AspNetCore.dll
+C:\MSProject\DotNetCore\MS.DotNetCore.App\AspNetCore\bin\Debug\netcoreapp2.0\AspNetCore.pdb
+C:\MSProject\DotNetCore\MS.DotNetCore.App\AspNetCore\bin\Debug\netcoreapp2.0\Microsoft.Extensions.DependencyInjection.dll
+C:\MSProject\DotNetCore\MS.DotNetCore.App\AspNetCore\bin\Debug\netcoreapp2.0\Microsoft.Extensions.DependencyInjection.xml
+C:\MSProject\DotNetCore\MS.DotNetCore.App\AspNetCore\obj\Debug\netcoreapp2.0\AspNetCore.csprojResolveAssemblyReference.cache
+C:\MSProject\DotNetCore\MS.DotNetCore.App\AspNetCore\obj\Debug\netcoreapp2.0\AspNetCore.csproj.CoreCompileInputs.cache
+C:\MSProject\DotNetCore\MS.DotNetCore.App\AspNetCore\obj\Debug\netcoreapp2.0\AspNetCore.AssemblyInfoInputs.cache
+C:\MSProject\DotNetCore\MS.DotNetCore.App\AspNetCore\obj\Debug\netcoreapp2.0\AspNetCore.AssemblyInfo.cs
+C:\MSProject\DotNetCore\MS.DotNetCore.App\AspNetCore\obj\Debug\netcoreapp2.0\AspNetCore.dll
+C:\MSProject\DotNetCore\MS.DotNetCore.App\AspNetCore\obj\Debug\netcoreapp2.0\AspNetCore.pdb
