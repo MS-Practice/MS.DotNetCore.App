@@ -1,0 +1,11 @@
+C:\MSProject\DotNetCore\MS.DotNetCore.App\AspNetCore.EFCore\bin\Debug\netcoreapp2.0\AspNetCore.EFCore.deps.json
+C:\MSProject\DotNetCore\MS.DotNetCore.App\AspNetCore.EFCore\bin\Debug\netcoreapp2.0\AspNetCore.EFCore.runtimeconfig.json
+C:\MSProject\DotNetCore\MS.DotNetCore.App\AspNetCore.EFCore\bin\Debug\netcoreapp2.0\AspNetCore.EFCore.runtimeconfig.dev.json
+C:\MSProject\DotNetCore\MS.DotNetCore.App\AspNetCore.EFCore\bin\Debug\netcoreapp2.0\AspNetCore.EFCore.dll
+C:\MSProject\DotNetCore\MS.DotNetCore.App\AspNetCore.EFCore\obj\Debug\netcoreapp2.0\AspNetCore.EFCore.csprojResolveAssemblyReference.cache
+C:\MSProject\DotNetCore\MS.DotNetCore.App\AspNetCore.EFCore\obj\Debug\netcoreapp2.0\AspNetCore.EFCore.csproj.CoreCompileInputs.cache
+C:\MSProject\DotNetCore\MS.DotNetCore.App\AspNetCore.EFCore\obj\Debug\netcoreapp2.0\AspNetCore.EFCore.AssemblyInfoInputs.cache
+C:\MSProject\DotNetCore\MS.DotNetCore.App\AspNetCore.EFCore\obj\Debug\netcoreapp2.0\AspNetCore.EFCore.AssemblyInfo.cs
+C:\MSProject\DotNetCore\MS.DotNetCore.App\AspNetCore.EFCore\bin\Debug\netcoreapp2.0\AspNetCore.EFCore.pdb
+C:\MSProject\DotNetCore\MS.DotNetCore.App\AspNetCore.EFCore\obj\Debug\netcoreapp2.0\AspNetCore.EFCore.dll
+C:\MSProject\DotNetCore\MS.DotNetCore.App\AspNetCore.EFCore\obj\Debug\netcoreapp2.0\AspNetCore.EFCore.pdb

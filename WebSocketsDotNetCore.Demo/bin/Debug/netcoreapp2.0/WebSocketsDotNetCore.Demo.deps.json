@@ -30,6 +30,11 @@
         "runtime": {
           "WebSocketsDotNetCore.Demo.dll": {}
         },
+        "resources": {
+          "es/WebSocketsDotNetCore.Demo.resources.dll": {
+            "locale": "es"
+          }
+        },
         "compile": {
           "WebSocketsDotNetCore.Demo.dll": {}
         }
