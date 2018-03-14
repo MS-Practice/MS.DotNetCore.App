@@ -2,9 +2,7 @@ D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\ResilientHttpClientByPo
 D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\ResilientHttpClientByPolly\bin\Debug\netcoreapp2.0\ResilientHttpClientByPolly.runtimeconfig.json
 D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\ResilientHttpClientByPolly\bin\Debug\netcoreapp2.0\ResilientHttpClientByPolly.runtimeconfig.dev.json
 D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\ResilientHttpClientByPolly\bin\Debug\netcoreapp2.0\ResilientHttpClientByPolly.dll
-D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\ResilientHttpClientByPolly\bin\Debug\netcoreapp2.0\Microsoft.AspNetCore.Http.Abstractions.dll
 D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\ResilientHttpClientByPolly\bin\Debug\netcoreapp2.0\Microsoft.Extensions.Logging.Abstractions.dll
-D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\ResilientHttpClientByPolly\bin\Debug\netcoreapp2.0\Microsoft.AspNetCore.Http.Abstractions.xml
 D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\ResilientHttpClientByPolly\bin\Debug\netcoreapp2.0\Microsoft.Extensions.Logging.Abstractions.xml
 D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\ResilientHttpClientByPolly\obj\Debug\netcoreapp2.0\ResilientHttpClientByPolly.csproj.CoreCompileInputs.cache
 D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\ResilientHttpClientByPolly\obj\Debug\netcoreapp2.0\ResilientHttpClientByPolly.AssemblyInfoInputs.cache
@@ -27,3 +25,6 @@ C:\MSProject\DotNetCore\MS.DotNetCore.App\ResilientHttpClientByPolly\bin\Debug\n
 C:\MSProject\DotNetCore\MS.DotNetCore.App\ResilientHttpClientByPolly\bin\Debug\netcoreapp2.0\ResilientHttpClientByPolly.pdb
 C:\MSProject\DotNetCore\MS.DotNetCore.App\ResilientHttpClientByPolly\obj\Debug\netcoreapp2.0\ResilientHttpClientByPolly.dll
 C:\MSProject\DotNetCore\MS.DotNetCore.App\ResilientHttpClientByPolly\obj\Debug\netcoreapp2.0\ResilientHttpClientByPolly.pdb
+D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\ResilientHttpClientByPolly\bin\Debug\netcoreapp2.0\ResilientHttpClientByPolly.pdb
+D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\ResilientHttpClientByPolly\obj\Debug\netcoreapp2.0\ResilientHttpClientByPolly.dll
+D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\ResilientHttpClientByPolly\obj\Debug\netcoreapp2.0\ResilientHttpClientByPolly.pdb

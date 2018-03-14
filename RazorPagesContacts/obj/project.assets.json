@@ -9974,13 +9974,5 @@
         "warn": true
       }
     }
-  },
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "读取缓存文件 C:\\MSProject\\DotNetCore\\MS.DotNetCore.App\\RazorPagesContacts\\obj\\RazorPagesContacts.csproj.nuget.cache 时遇到问题: Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  }
 }

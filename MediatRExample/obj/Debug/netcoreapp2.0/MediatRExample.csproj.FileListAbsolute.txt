@@ -9,10 +9,6 @@ D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\MediatRExample\obj\Debu
 D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\MediatRExample\bin\Debug\netcoreapp2.0\MediatRExample.pdb
 D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\MediatRExample\obj\Debug\netcoreapp2.0\MediatRExample.dll
 D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\MediatRExample\obj\Debug\netcoreapp2.0\MediatRExample.pdb
-D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\MediatRExample\bin\Debug\netcoreapp2.0\MediatR.dll
-D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\MediatRExample\bin\Debug\netcoreapp2.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
-D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\MediatRExample\bin\Debug\netcoreapp2.0\MediatR.Extensions.Microsoft.DependencyInjection.pdb
-D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\MediatRExample\bin\Debug\netcoreapp2.0\MediatR.pdb
 C:\MSProject\DotNetCore\MS.DotNetCore.App\MediatRExample\obj\Debug\netcoreapp2.0\MediatRExample.csprojResolveAssemblyReference.cache
 C:\MSProject\DotNetCore\MS.DotNetCore.App\MediatRExample\obj\Debug\netcoreapp2.0\MediatRExample.csproj.CoreCompileInputs.cache
 C:\MSProject\DotNetCore\MS.DotNetCore.App\MediatRExample\obj\Debug\netcoreapp2.0\MediatRExample.AssemblyInfoInputs.cache

@@ -11,6 +11,7 @@
           "Microsoft.AspNetCore.Http": "2.0.1",
           "Microsoft.AspNetCore.Http.Features": "2.0.1",
           "Polly": "5.8.0",
+          "Microsoft.Extensions.DependencyInjection": "2.0.0.0",
           "Microsoft.Extensions.Logging.Abstractions": "2.0.0.0",
           "Newtonsoft.Json": "10.0.0.0"
         },
@@ -106,6 +107,11 @@
       "System.Text.Encodings.Web/4.4.0": {
         "runtime": {
           "lib/netstandard2.0/System.Text.Encodings.Web.dll": {}
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection/2.0.0.0": {
+        "runtime": {
+          "Microsoft.Extensions.DependencyInjection.dll": {}
         }
       },
       "Microsoft.Extensions.Logging.Abstractions/2.0.0.0": {
@@ -216,6 +222,11 @@
       "sha512": "sha512-l/tYeikqMHX2MD2jzrHDfR9ejrpTTF7wvAEbR51AMvzip1wSJgiURbDik4iv/w7ZgytmTD/hlwpplEhF9bmFNw==",
       "path": "system.text.encodings.web/4.4.0",
       "hashPath": "system.text.encodings.web.4.4.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.DependencyInjection/2.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
     },
     "Microsoft.Extensions.Logging.Abstractions/2.0.0.0": {
       "type": "reference",
