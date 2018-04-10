@@ -22,3 +22,4 @@ C:\MSProject\DotNetCore\MS.DotNetCore.App\OwinSample.Demo\obj\Debug\netcoreapp2.
 C:\MSProject\DotNetCore\MS.DotNetCore.App\OwinSample.Demo\obj\Debug\netcoreapp2.0\OwinSample.Demo.AssemblyInfo.cs
 C:\MSProject\DotNetCore\MS.DotNetCore.App\OwinSample.Demo\obj\Debug\netcoreapp2.0\OwinSample.Demo.dll
 C:\MSProject\DotNetCore\MS.DotNetCore.App\OwinSample.Demo\obj\Debug\netcoreapp2.0\OwinSample.Demo.pdb
+C:\MSProject\DotNetCore\MS.DotNetCore.App\OwinSample.Demo\obj\Debug\netcoreapp2.0\OwinSample.Demo.csproj.CopyComplete

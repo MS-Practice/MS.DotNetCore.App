@@ -24,3 +24,4 @@ C:\MSProject\DotNetCore\MS.DotNetCore.App\AspNetCore\obj\Debug\netcoreapp2.0\Asp
 C:\MSProject\DotNetCore\MS.DotNetCore.App\AspNetCore\obj\Debug\netcoreapp2.0\AspNetCore.AssemblyInfo.cs
 C:\MSProject\DotNetCore\MS.DotNetCore.App\AspNetCore\obj\Debug\netcoreapp2.0\AspNetCore.dll
 C:\MSProject\DotNetCore\MS.DotNetCore.App\AspNetCore\obj\Debug\netcoreapp2.0\AspNetCore.pdb
+C:\MSProject\DotNetCore\MS.DotNetCore.App\AspNetCore\obj\Debug\netcoreapp2.0\AspNetCore.csproj.CopyComplete
