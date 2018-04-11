@@ -11,11 +11,18 @@ using Microsoft.AspNetCore.Routing.Constraints;
 using Microsoft.AspNetCore.Routing;
 using Microsoft.AspNetCore.Rewrite;
 using DotNetCore.Fundamentals.Routings;
+using DotNetCore.Fundamentals.Middlewares;
+using SimpleInjector;
+using CommonCodeProject.Data;
+using SimpleInjector.Lifestyles;
+using Microsoft.EntityFrameworkCore;
 
 namespace DotNetCore.Fundamentals
 {
     public class Startup
     {
+        private Container _container = new Container();
+
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
@@ -27,6 +34,29 @@ namespace DotNetCore.Fundamentals
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc();
+
+            services.AddTransient<IMiddlewareFactory>(_ =>
+            {
+                return new SimpleInjectorMiddlewareFactory(_container);
+            });
+
+            services.UseSimpleInjectorAspNetRequestScoping(_container);
+
+            services.AddScoped<AppDbContext>(provider =>
+                _container.GetInstance<AppDbContext>());
+            _container.Options.DefaultScopedLifestyle = new AsyncScopedLifestyle();
+
+            _container.Register<AppDbContext>(() =>
+            {
+                var optionsBuilder = new DbContextOptionsBuilder<DbContext>();
+                optionsBuilder.UseInMemoryDatabase("InMemoryDb");
+                return new AppDbContext(optionsBuilder.Options);
+            }, Lifestyle.Scoped);
+
+            _container.Register<SimpleInjectorActivatedMiddleware>();
+
+            _container.Verify();
+
             services.AddDirectoryBrowser();
         }
 
@@ -62,6 +92,8 @@ namespace DotNetCore.Fundamentals
             {
                 app.UseExceptionHandler("/Home/Error");
             }
+
+            app.UseSimpleInjectorActivatedMiddleware();
 
             //Serve my app-specific default file,if present
             DefaultFilesOptions options = new DefaultFilesOptions();

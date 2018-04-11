@@ -1,0 +1,12 @@
+D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\CommonCodeProject\bin\Debug\netcoreapp2.0\CommonCodeProject.deps.json
+D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\CommonCodeProject\bin\Debug\netcoreapp2.0\CommonCodeProject.dll
+D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\CommonCodeProject\bin\Debug\netcoreapp2.0\CommonCodeProject.pdb
+D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\CommonCodeProject\bin\Debug\netcoreapp2.0\Microsoft.EntityFrameworkCore.dll
+D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\CommonCodeProject\bin\Debug\netcoreapp2.0\Microsoft.EntityFrameworkCore.xml
+D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\CommonCodeProject\obj\Debug\netcoreapp2.0\CommonCodeProject.csprojResolveAssemblyReference.cache
+D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\CommonCodeProject\obj\Debug\netcoreapp2.0\CommonCodeProject.csproj.CoreCompileInputs.cache
+D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\CommonCodeProject\obj\Debug\netcoreapp2.0\CommonCodeProject.AssemblyInfoInputs.cache
+D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\CommonCodeProject\obj\Debug\netcoreapp2.0\CommonCodeProject.AssemblyInfo.cs
+D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\CommonCodeProject\obj\Debug\netcoreapp2.0\CommonCodeProject.csproj.CopyComplete
+D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\CommonCodeProject\obj\Debug\netcoreapp2.0\CommonCodeProject.dll
+D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\CommonCodeProject\obj\Debug\netcoreapp2.0\CommonCodeProject.pdb
