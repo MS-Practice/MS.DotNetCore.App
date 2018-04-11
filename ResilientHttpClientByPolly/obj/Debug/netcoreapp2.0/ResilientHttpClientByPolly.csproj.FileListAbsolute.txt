@@ -29,3 +29,4 @@ D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\ResilientHttpClientByPo
 D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\ResilientHttpClientByPolly\obj\Debug\netcoreapp2.0\ResilientHttpClientByPolly.dll
 D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\ResilientHttpClientByPolly\obj\Debug\netcoreapp2.0\ResilientHttpClientByPolly.pdb
 C:\MSProject\DotNetCore\MS.DotNetCore.App\ResilientHttpClientByPolly\obj\Debug\netcoreapp2.0\ResilientHttpClientByPolly.csproj.CopyComplete
+D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\ResilientHttpClientByPolly\obj\Debug\netcoreapp2.0\ResilientHttpClientByPolly.csproj.CopyComplete
