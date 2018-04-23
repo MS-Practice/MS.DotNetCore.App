@@ -1,6 +1,8 @@
-﻿using Microsoft.Extensions.DependencyInjection;
+﻿using DeepCopyCore.Models;
+using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Reflection;
 
@@ -46,11 +48,72 @@ namespace AspNetCore
             //scope.Dispose();
 
 
-            IEnumerable<string> enumerable = new[] { "xxx", "eee", "rrr", "ttt" };
-            Random rd = new Random(10000);
-            var result = enumerable.RandomEnumerableValue(rd);
-            Console.Write(result);
+            //IEnumerable<string> enumerable = new[] { "xxx", "eee", "rrr", "ttt" };
+            //Random rd = new Random(10000);
+            //var result = enumerable.RandomEnumerableValue(rd);
+            //Console.Write(result);
+            DeepCopyMethod_Test();
             Console.Read();
+        }
+
+        private static void DeepCopyMethod_Test()
+        {
+            Stopwatch sw = new Stopwatch();
+            sw.Start();
+            for (int i = 0; i < 1000000; i++)
+            {
+                Student s = new Student
+                {
+                    Age = 25,
+                    Id = 1,
+                    Name = "MarsonShine"
+                };
+                var dto = DeepCopyCore.DeepCopyByRelection.TransRelection<Student, StudentDto>(s);
+            }
+            sw.Stop();
+            Console.WriteLine("TransRelection :" + sw.ElapsedMilliseconds + " ms");
+
+            sw.Restart();
+            for (int i = 0; i < 1000000; i++)
+            {
+                Student s = new Student
+                {
+                    Age = 25,
+                    Id = 1,
+                    Name = "MarsonShine"
+                };
+                var dto = DeepCopyCore.DeepCopyBySerialization.TransSerialization<Student, StudentDto>(s);
+            }
+            sw.Stop();
+            Console.WriteLine("TransSerialization :" + sw.ElapsedMilliseconds + " ms");
+
+            sw.Restart();
+            for (int i = 0; i < 1000000; i++)
+            {
+                Student s = new Student
+                {
+                    Age = 25,
+                    Id = 1,
+                    Name = "MarsonShine"
+                };
+                var dto = DeepCopyCore.DeepCopyByExpression.TransExp<Student, StudentDto>(s);
+            }
+            sw.Stop();
+            Console.WriteLine("TransExpression :" + sw.ElapsedMilliseconds + " ms");
+
+            sw.Restart();
+            for (int i = 0; i < 1000000; i++)
+            {
+                Student s = new Student
+                {
+                    Age = 25,
+                    Id = 1,
+                    Name = "MarsonShine"
+                };
+                var dto = DeepCopyCore.TransExpByGeneric<Student, StudentDto>.Trans(s);
+            }
+            sw.Stop();
+            Console.WriteLine("TransExpByGeneric :" + sw.ElapsedMilliseconds + " ms");
         }
     }
 }

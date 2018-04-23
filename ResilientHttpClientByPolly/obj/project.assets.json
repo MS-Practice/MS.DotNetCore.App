@@ -992,25 +992,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Administrator\\.nuget\\packages\\": {},
+    "C:\\Users\\summer\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\MS\\Project\\dotnet\\MS.DotNetCore.App\\MS.DotNetCore.App\\ResilientHttpClientByPolly\\ResilientHttpClientByPolly.csproj",
+      "projectUniqueName": "C:\\MSProject\\DotNetCore\\MS.DotNetCore.App\\ResilientHttpClientByPolly\\ResilientHttpClientByPolly.csproj",
       "projectName": "ResilientHttpClientByPolly",
-      "projectPath": "D:\\MS\\Project\\dotnet\\MS.DotNetCore.App\\MS.DotNetCore.App\\ResilientHttpClientByPolly\\ResilientHttpClientByPolly.csproj",
-      "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "D:\\MS\\Project\\dotnet\\MS.DotNetCore.App\\MS.DotNetCore.App\\ResilientHttpClientByPolly\\obj\\",
+      "projectPath": "C:\\MSProject\\DotNetCore\\MS.DotNetCore.App\\ResilientHttpClientByPolly\\ResilientHttpClientByPolly.csproj",
+      "packagesPath": "C:\\Users\\summer\\.nuget\\packages\\",
+      "outputPath": "C:\\MSProject\\DotNetCore\\MS.DotNetCore.App\\ResilientHttpClientByPolly\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\summer\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
       ],
@@ -1019,7 +1019,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "http://10.1.7.158/nuget/default/": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp2.0": {
