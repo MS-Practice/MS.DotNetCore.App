@@ -23,3 +23,6 @@ D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\DotNetCore.Fundamentals
 D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\DotNetCore.Fundamentals\bin\Debug\netcoreapp2.0\CommonCodeProject.dll
 D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\DotNetCore.Fundamentals\bin\Debug\netcoreapp2.0\CommonCodeProject.pdb
 D:\MS\Project\dotnet\MS.DotNetCore.App\MS.DotNetCore.App\DotNetCore.Fundamentals\obj\Debug\netcoreapp2.0\DotNetCore.Fundamentals.csproj.CopyComplete
+C:\MSProject\DotNetCore\MS.DotNetCore.App\DotNetCore.Fundamentals\bin\Debug\netcoreapp2.0\CommonCodeProject.dll
+C:\MSProject\DotNetCore\MS.DotNetCore.App\DotNetCore.Fundamentals\bin\Debug\netcoreapp2.0\CommonCodeProject.pdb
+C:\MSProject\DotNetCore\MS.DotNetCore.App\DotNetCore.Fundamentals\obj\Debug\netcoreapp2.0\DotNetCore.Fundamentals.csproj.CopyComplete
