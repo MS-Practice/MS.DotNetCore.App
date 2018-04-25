@@ -4,6 +4,7 @@ using System.Text;
 
 namespace XunitTestDemo
 {
+    public delegate void MyEventHandler(int i, int j);
     public interface IFoo
     {
         Bar Bar { get; set; }
@@ -14,8 +15,10 @@ namespace XunitTestDemo
         string DoSomethingStringy(string value);
         bool TryParse(string value, out string outputValue);
         bool Submit(ref Bar bar);
+        void Submit();
         int GetCount();
         bool Add(int value);
+        event MyEventHandler MyEvent;
     }
 
     public class Bar
@@ -28,4 +31,6 @@ namespace XunitTestDemo
     {
         public virtual string Name { get; set; }
     }
+
+    public class FooEventArgs : EventArgs { }
 }
