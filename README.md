@@ -9,3 +9,6 @@ https://docs.microsoft.com/zh-cn/dotnet/core/tools/dotnet?tabs=netcore2x
 
 asp.net ef url:
 https://docs.microsoft.com/en-us/ef/
+
+mysql doc error code
+https://dev.mysql.com/doc/refman/8.0/en/error-messages-server.html#error_er_dup_entry
