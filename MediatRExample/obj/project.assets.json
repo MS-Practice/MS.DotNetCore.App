@@ -13562,34 +13562,31 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\summer\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\": {},
+    "C:\\Users\\Administrator\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\MSProject\\DotNetCore\\MS.DotNetCore.App\\MediatRExample\\MediatRExample.csproj",
+      "projectUniqueName": "D:\\MS\\Project\\dotnet\\MS.DotNetCore.App\\MediatRExample\\MediatRExample.csproj",
       "projectName": "MediatRExample",
-      "projectPath": "C:\\MSProject\\DotNetCore\\MS.DotNetCore.App\\MediatRExample\\MediatRExample.csproj",
-      "packagesPath": "C:\\Users\\summer\\.nuget\\packages\\",
-      "outputPath": "C:\\MSProject\\DotNetCore\\MS.DotNetCore.App\\MediatRExample\\obj\\",
+      "projectPath": "D:\\MS\\Project\\dotnet\\MS.DotNetCore.App\\MediatRExample\\MediatRExample.csproj",
+      "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+      "outputPath": "D:\\MS\\Project\\dotnet\\MS.DotNetCore.App\\MediatRExample\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\summer\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
+        "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "https://www.nuget.org/api/v2/": {}
       },
       "frameworks": {
         "netcoreapp2.0": {
