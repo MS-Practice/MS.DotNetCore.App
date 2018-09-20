@@ -41,7 +41,7 @@ namespace BenchmarkingDotNetDemo
 
         public static void Main(string[] args)
         {
-            var summary = BenchmarkRunner.Run<SingleVsFirst>();
+            var summary = BenchmarkRunner.Run<MemoryAnalyzer>();
             Console.ReadLine();
         }
     }
