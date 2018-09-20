@@ -12,3 +12,17 @@ C:\MSProject\DotNetCore\MS.DotNetCore.App\XunitTestDemo\obj\Debug\netcoreapp2.0\
 C:\MSProject\DotNetCore\MS.DotNetCore.App\XunitTestDemo\bin\Debug\netcoreapp2.0\XunitTestDemo.pdb
 C:\MSProject\DotNetCore\MS.DotNetCore.App\XunitTestDemo\obj\Debug\netcoreapp2.0\XunitTestDemo.dll
 C:\MSProject\DotNetCore\MS.DotNetCore.App\XunitTestDemo\obj\Debug\netcoreapp2.0\XunitTestDemo.pdb
+D:\MS\Project\dotnet\MS.DotNetCore.App\XunitTestDemo\bin\Debug\netcoreapp2.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+D:\MS\Project\dotnet\MS.DotNetCore.App\XunitTestDemo\bin\Debug\netcoreapp2.0\xunit.runner.reporters.netcoreapp10.dll
+D:\MS\Project\dotnet\MS.DotNetCore.App\XunitTestDemo\bin\Debug\netcoreapp2.0\xunit.runner.utility.netcoreapp10.dll
+D:\MS\Project\dotnet\MS.DotNetCore.App\XunitTestDemo\bin\Debug\netcoreapp2.0\XunitTestDemo.deps.json
+D:\MS\Project\dotnet\MS.DotNetCore.App\XunitTestDemo\bin\Debug\netcoreapp2.0\XunitTestDemo.runtimeconfig.json
+D:\MS\Project\dotnet\MS.DotNetCore.App\XunitTestDemo\bin\Debug\netcoreapp2.0\XunitTestDemo.runtimeconfig.dev.json
+D:\MS\Project\dotnet\MS.DotNetCore.App\XunitTestDemo\bin\Debug\netcoreapp2.0\XunitTestDemo.dll
+D:\MS\Project\dotnet\MS.DotNetCore.App\XunitTestDemo\bin\Debug\netcoreapp2.0\XunitTestDemo.pdb
+D:\MS\Project\dotnet\MS.DotNetCore.App\XunitTestDemo\obj\Debug\netcoreapp2.0\XunitTestDemo.csprojAssemblyReference.cache
+D:\MS\Project\dotnet\MS.DotNetCore.App\XunitTestDemo\obj\Debug\netcoreapp2.0\XunitTestDemo.csproj.CoreCompileInputs.cache
+D:\MS\Project\dotnet\MS.DotNetCore.App\XunitTestDemo\obj\Debug\netcoreapp2.0\XunitTestDemo.AssemblyInfoInputs.cache
+D:\MS\Project\dotnet\MS.DotNetCore.App\XunitTestDemo\obj\Debug\netcoreapp2.0\XunitTestDemo.AssemblyInfo.cs
+D:\MS\Project\dotnet\MS.DotNetCore.App\XunitTestDemo\obj\Debug\netcoreapp2.0\XunitTestDemo.dll
+D:\MS\Project\dotnet\MS.DotNetCore.App\XunitTestDemo\obj\Debug\netcoreapp2.0\XunitTestDemo.pdb
