@@ -1,0 +1,11 @@
+D:\MS\Project\dotnet\MS.DotNetCore.App\BenchmarkingDotNetDemo\bin\Debug\netcoreapp2.1\BenchmarkingDotNetDemo.deps.json
+D:\MS\Project\dotnet\MS.DotNetCore.App\BenchmarkingDotNetDemo\bin\Debug\netcoreapp2.1\BenchmarkingDotNetDemo.runtimeconfig.json
+D:\MS\Project\dotnet\MS.DotNetCore.App\BenchmarkingDotNetDemo\bin\Debug\netcoreapp2.1\BenchmarkingDotNetDemo.runtimeconfig.dev.json
+D:\MS\Project\dotnet\MS.DotNetCore.App\BenchmarkingDotNetDemo\bin\Debug\netcoreapp2.1\BenchmarkingDotNetDemo.dll
+D:\MS\Project\dotnet\MS.DotNetCore.App\BenchmarkingDotNetDemo\obj\Debug\netcoreapp2.1\BenchmarkingDotNetDemo.csprojAssemblyReference.cache
+D:\MS\Project\dotnet\MS.DotNetCore.App\BenchmarkingDotNetDemo\obj\Debug\netcoreapp2.1\BenchmarkingDotNetDemo.csproj.CoreCompileInputs.cache
+D:\MS\Project\dotnet\MS.DotNetCore.App\BenchmarkingDotNetDemo\obj\Debug\netcoreapp2.1\BenchmarkingDotNetDemo.AssemblyInfoInputs.cache
+D:\MS\Project\dotnet\MS.DotNetCore.App\BenchmarkingDotNetDemo\obj\Debug\netcoreapp2.1\BenchmarkingDotNetDemo.AssemblyInfo.cs
+D:\MS\Project\dotnet\MS.DotNetCore.App\BenchmarkingDotNetDemo\bin\Debug\netcoreapp2.1\BenchmarkingDotNetDemo.pdb
+D:\MS\Project\dotnet\MS.DotNetCore.App\BenchmarkingDotNetDemo\obj\Debug\netcoreapp2.1\BenchmarkingDotNetDemo.dll
+D:\MS\Project\dotnet\MS.DotNetCore.App\BenchmarkingDotNetDemo\obj\Debug\netcoreapp2.1\BenchmarkingDotNetDemo.pdb
