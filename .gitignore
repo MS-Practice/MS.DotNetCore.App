@@ -4,3 +4,10 @@
 
 /.vs/MS.DotNetCore.App/v15/Server/sqlite3
 /.vs/MS.DotNetCore.App/v15/sqlite3/db.lock
+/CommonCodeProject/obj/Release/netcoreapp2.0
+/Configuration.Demo/obj/Release/netcoreapp2.0
+/DeepCopyCore/obj/Release/netcoreapp2.0
+/ErrorHandling.Demo/obj/Release/netcoreapp2.0
+/NetCoreFileUploader.Demo/obj/Release/netcoreapp2.0
+/UrlWriting.Demo/obj/Release/netcoreapp2.0
+/WebAppSessionState.Demo/obj/Release/netcoreapp2.0
