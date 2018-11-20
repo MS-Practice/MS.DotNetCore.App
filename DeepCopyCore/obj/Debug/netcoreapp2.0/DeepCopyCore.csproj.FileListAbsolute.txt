@@ -1,9 +1,0 @@
-C:\MSProject\DotNetCore\MS.DotNetCore.App\DeepCopyCore\bin\Debug\netcoreapp2.0\DeepCopyCore.deps.json
-C:\MSProject\DotNetCore\MS.DotNetCore.App\DeepCopyCore\bin\Debug\netcoreapp2.0\DeepCopyCore.dll
-C:\MSProject\DotNetCore\MS.DotNetCore.App\DeepCopyCore\bin\Debug\netcoreapp2.0\DeepCopyCore.pdb
-C:\MSProject\DotNetCore\MS.DotNetCore.App\DeepCopyCore\obj\Debug\netcoreapp2.0\DeepCopyCore.csprojResolveAssemblyReference.cache
-C:\MSProject\DotNetCore\MS.DotNetCore.App\DeepCopyCore\obj\Debug\netcoreapp2.0\DeepCopyCore.csproj.CoreCompileInputs.cache
-C:\MSProject\DotNetCore\MS.DotNetCore.App\DeepCopyCore\obj\Debug\netcoreapp2.0\DeepCopyCore.AssemblyInfoInputs.cache
-C:\MSProject\DotNetCore\MS.DotNetCore.App\DeepCopyCore\obj\Debug\netcoreapp2.0\DeepCopyCore.AssemblyInfo.cs
-C:\MSProject\DotNetCore\MS.DotNetCore.App\DeepCopyCore\obj\Debug\netcoreapp2.0\DeepCopyCore.dll
-C:\MSProject\DotNetCore\MS.DotNetCore.App\DeepCopyCore\obj\Debug\netcoreapp2.0\DeepCopyCore.pdb
