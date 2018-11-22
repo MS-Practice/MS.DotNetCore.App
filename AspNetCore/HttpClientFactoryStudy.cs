@@ -28,7 +28,7 @@ namespace AspNetCore {
 
         public async Task OnGetSpecifiedHttpClient() {
             var request = new HttpRequestMessage(HttpMethod.Get, "repos/aspnet/docs/branches");
-            var client = _clientFactory.CreateClient("github");
+            var client = _clientFactory.CreateClient("github"); //CreateClient 传参数创建指定的客户端Client
             Console.WriteLine("获取特定的HttpClient：");
 
             var response = await client.SendAsync(request);

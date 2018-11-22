@@ -57,10 +57,12 @@ namespace AspNetCore {
 
             Installer();
             var serviceProvider = Services.BuildServiceProvider();
+            var githubClient = serviceProvider.GetService<GithubClient>();
             var client = serviceProvider.GetService<IHttpClientFactory>();
             var clientStudy = new HttpClientFactoryStudy(client);
             AsyncContext.Run(() => clientStudy.OnGet());
             AsyncContext.Run(() => clientStudy.OnGetSpecifiedHttpClient());
+            AsyncContext.Run(() => githubClient.GetAspNetDocsIssues());
             Console.ReadLine();
         }
 
@@ -75,6 +77,8 @@ namespace AspNetCore {
                 //添加 user-agent
                 client.DefaultRequestHeaders.Add("User-Agent", "HttpClientFactory-Sample");
             });
+            //类型化客户端 HttpClient
+            Services.AddHttpClient<GithubClient>();
         }
 
         private static void DeepCopyMethod_Test() {
