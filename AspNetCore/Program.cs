@@ -60,9 +60,11 @@ namespace AspNetCore {
             var githubClient = serviceProvider.GetService<GithubClient>();
             var client = serviceProvider.GetService<IHttpClientFactory>();
             var clientStudy = new HttpClientFactoryStudy(client);
+            var externalClient = client.CreateClient("externalClient");
             AsyncContext.Run(() => clientStudy.OnGet());
             AsyncContext.Run(() => clientStudy.OnGetSpecifiedHttpClient());
             AsyncContext.Run(() => githubClient.GetAspNetDocsIssues());
+            AsyncContext.Run(() => externalClient.GetStringAsync("repos/aspnet/docs/branches"));
             Console.ReadLine();
         }
 
@@ -79,6 +81,14 @@ namespace AspNetCore {
             });
             //类型化客户端 HttpClient
             Services.AddHttpClient<GithubClient>();
+
+            //通过注册处理程序来达到 AOP 的效果，在出战请求（消息传递管道中下一个处理程序之前）结束前调用
+            Services.AddTransient<ValidateHeaderHandler>();
+            Services.AddHttpClient("externalClient", c => {
+                    c.BaseAddress = new Uri("https://api.github.com/");
+                })
+                .AddHttpMessageHandler<ValidateHeaderHandler>(); //可以注册多个处理程序
+            // .AddHttpMessageHandler<...>();
         }
 
         private static void DeepCopyMethod_Test() {
