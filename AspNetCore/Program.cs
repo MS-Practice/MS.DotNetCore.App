@@ -15,6 +15,7 @@ namespace AspNetCore {
         public static ServiceCollection Services => m_services;
 
         static void Main(string[] args) {
+            SeletedByVersion();
             //Startup startup = new Startup();
             //var methods = startup.GetType().GetMethods(BindingFlags.Public | BindingFlags.Instance);
             //var methodInfo = methods.FirstOrDefault(m => m.Name == "Configure");
@@ -64,7 +65,7 @@ namespace AspNetCore {
             AsyncContext.Run(() => clientStudy.OnGet());
             AsyncContext.Run(() => clientStudy.OnGetSpecifiedHttpClient());
             AsyncContext.Run(() => githubClient.GetAspNetDocsIssues());
-            AsyncContext.Run(() => externalClient.GetStringAsync("repos/aspnet/docs/branches"));
+            // AsyncContext.Run(() => externalClient.GetStringAsync("repos/aspnet/docs/branches"));
             Console.ReadLine();
         }
 
@@ -140,6 +141,16 @@ namespace AspNetCore {
             }
             sw.Stop();
             Console.WriteLine("TransExpByGeneric :" + sw.ElapsedMilliseconds + " ms");
+        }
+
+        private static void SeletedByVersion() {
+#if NET45
+            Console.WriteLine("NET45");
+#elif NETCOREAPP2_1
+            Console.WriteLine("NETCOREAPP2_1");
+#elif NETCOREAPP2_0
+            Console.WriteLine("NETCOREAPP2_0");
+#endif
         }
     }
 }
