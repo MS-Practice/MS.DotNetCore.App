@@ -29,21 +29,21 @@
 
         public ResilientHttpClient CreateResilientHttpClient() => new ResilientHttpClient((origin) => CreatePolicies(), _logger, _httpContextAccessor);
 
-        private IEnumerable<Policy> CreatePolicies()
+        private IEnumerable<AsyncPolicy> CreatePolicies()
         {
-            return new Policy[]
+            return new AsyncPolicy[]
             {
                 Policy.Handle<HttpRequestException>()
                 .WaitAndRetryAsync(
                     //重试次数
-                    _retryCount,
+                    retryCount: _retryCount,
                     //重试间隔时间
-                    retryAttempt => TimeSpan.FromSeconds(Math.Pow(2,retryAttempt)),
+                    sleepDurationProvider: (retryAttempt,context) => TimeSpan.FromSeconds(Math.Pow(2,retryAttempt)),
                     //重试执行方法
-                    (exception,timespan,retryCount,context)=>{
+                    onRetry: (exception,timespan,retryCount,context)=>{
                         var msg = $"重试次数： {retryCount}， " +
                             $" {context.PolicyKey}， " +
-                            $" {context.ExecutionKey}， " +
+                            $" {string.Join(',',context.Keys)}， " +
                             $"原因： {exception}。";
                         _logger.LogWarning(msg);
                         _logger.LogDebug(msg);
