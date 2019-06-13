@@ -72,5 +72,6 @@
 /XunitTestDemo/obj
 /WebSocketsDotNetCore.Demo/obj
 /WebSocketsDotNetCore.Demo/bin
-[Bb]in
+[Bb]in/
+[Oo]bj/
 .vs/

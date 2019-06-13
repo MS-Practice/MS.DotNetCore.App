@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26730.16
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29009.5
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RazorPagesContacts", "RazorPagesContacts\RazorPagesContacts.csproj", "{0892158F-916E-42FB-A316-09F4E9A4588D}"
 EndProject
@@ -64,7 +64,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "XunitDemo", "XunitDemo", "{
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XunitTestDemo", "XunitTestDemo\XunitTestDemo.csproj", "{31D333E7-3244-4F98-9267-6A6607522F2D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BenchmarkingDotNetDemo", "BenchmarkingDotNetDemo\BenchmarkingDotNetDemo.csproj", "{F7441AB1-0392-4370-A13F-8E2929706C4C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BenchmarkingDotNetDemo", "BenchmarkingDotNetDemo\BenchmarkingDotNetDemo.csproj", "{F7441AB1-0392-4370-A13F-8E2929706C4C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PerfviewTutorial", "PerfviewTutorial\PerfviewTutorial.csproj", "{810DB9C3-C7E7-4B22-BB9D-B9585BF3161D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -172,6 +174,10 @@ Global
 		{F7441AB1-0392-4370-A13F-8E2929706C4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F7441AB1-0392-4370-A13F-8E2929706C4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F7441AB1-0392-4370-A13F-8E2929706C4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{810DB9C3-C7E7-4B22-BB9D-B9585BF3161D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{810DB9C3-C7E7-4B22-BB9D-B9585BF3161D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{810DB9C3-C7E7-4B22-BB9D-B9585BF3161D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{810DB9C3-C7E7-4B22-BB9D-B9585BF3161D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -195,6 +201,7 @@ Global
 		{25A026AD-2120-476D-B00C-76A058BB998A} = {6D191383-540E-4E22-A2D3-601AEC89C92C}
 		{31D333E7-3244-4F98-9267-6A6607522F2D} = {FE73129F-4CA4-469F-B036-192C5A78AEA5}
 		{F7441AB1-0392-4370-A13F-8E2929706C4C} = {FE73129F-4CA4-469F-B036-192C5A78AEA5}
+		{810DB9C3-C7E7-4B22-BB9D-B9585BF3161D} = {42780C51-9060-4603-ACC7-07990A970BDC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {85BBD894-C5B7-46AF-8E87-AEEEB7DEC542}
