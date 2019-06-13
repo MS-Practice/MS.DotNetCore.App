@@ -23,18 +23,18 @@
 
         private readonly ILogger _logger;
 
-        private readonly Func<string, IEnumerable<Policy>> _policyCreator;
+        private readonly Func<string, IEnumerable<AsyncPolicy>> _policyCreator;
 
-        private ConcurrentDictionary<string, PolicyWrap> _policyWrappers;
+        private ConcurrentDictionary<string, AsyncPolicyWrap> _policyWrappers;
 
         private readonly IHttpContextAccessor _httpContextAccessor;
 
-        public ResilientHttpClient(Func<string, IEnumerable<Policy>> policyCreator, ILogger logger, IHttpContextAccessor httpContextAccessor)
+        public ResilientHttpClient(Func<string, IEnumerable<AsyncPolicy>> policyCreator, ILogger logger, IHttpContextAccessor httpContextAccessor)
         {
             this._client = new HttpClient();
             this._logger = logger;
             this._policyCreator = policyCreator;
-            this._policyWrappers = new ConcurrentDictionary<string, PolicyWrap>();
+            this._policyWrappers = new ConcurrentDictionary<string, AsyncPolicyWrap>();
             this._httpContextAccessor = httpContextAccessor;
         }
 
@@ -65,7 +65,7 @@
                 throw new ArgumentException("Value must be either post or put.", "method");
             }
             string originFromUri = GetOriginFromUri(uri);
-            return await HttpInvoker(originFromUri, () =>
+            return await HttpInvoker(originFromUri, (context) =>
             {
                 HttpRequestMessage httpRequestMessage = new HttpRequestMessage(method, uri);
                 SetAuthorizationHeader(httpRequestMessage);
@@ -105,13 +105,12 @@
             return string.Format("{0}://{1}:{2}", uri2.Scheme, uri2.DnsSafeHost, uri2.Port);
         }
 
-        private async Task<T> HttpInvoker<T>(string origin, Func<Task<T>> action)
+        private async Task<T> HttpInvoker<T>(string origin, Func<Context,Task<T>> action)
         {
             string text = NormalizeOrigin(origin);
-            PolicyWrap val = default(PolicyWrap);
-            if (!this._policyWrappers.TryGetValue(text, out val))
+            if (!this._policyWrappers.TryGetValue(text, out AsyncPolicyWrap val))
             {
-                val = Policy.WrapAsync((IAsyncPolicy[])Enumerable.ToArray<Policy>(this._policyCreator(text)));
+                val = Policy.WrapAsync((IAsyncPolicy[])Enumerable.ToArray(_policyCreator(text)));
                 this._policyWrappers.TryAdd(text, val);
             }
             return await val.ExecuteAsync<T>(action, new Context(text));

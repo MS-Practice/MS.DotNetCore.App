@@ -21,8 +21,8 @@ let octalLiteral: number = 0o744;   //8进制
 let x: [string, number];
 x = ['hello', 10];
 //当访问超过索引值
-x[3] = 'world';
-console.log(x[5].toString());
+//x[3] = 'world';
+//console.log(x[5].toString());
 //x[6] = true;    //error 索引超过范围，x只允许在联合类型中存在(string,number)
 //枚举
 enum Color { RedA = 1, GreenA, BlueA }

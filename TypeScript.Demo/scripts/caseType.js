@@ -1,3 +1,4 @@
+var _a;
 //boolean
 var isDone = false;
 //Number
@@ -20,8 +21,8 @@ var octalLiteral = 484; //8进制
 var x;
 x = ['hello', 10];
 //当访问超过索引值
-x[3] = 'world';
-console.log(x[5].toString());
+//x[3] = 'world';
+//console.log(x[5].toString());
 //x[6] = true;    //error 索引超过范围，x只允许在联合类型中存在(string,number)
 //枚举
 var Color;
@@ -79,5 +80,4 @@ var newNameA = o.a, newNameBB = o.b;
 function keepWholeObject(wholeObject) {
     var a = wholeObject.a, _a = wholeObject.b, b = _a === void 0 ? 1001 : _a;
 }
-var _a;
 //# sourceMappingURL=caseType.js.map
