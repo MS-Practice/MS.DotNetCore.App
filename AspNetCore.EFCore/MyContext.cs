@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -7,16 +8,21 @@ namespace AspNetCore.EFCore
 {
     class MyContext : DbContext
     {
+        private static readonly ILoggerFactory EfCoreSqlLoggerFactory = LoggerFactory.Create(
+            loggerBuilder => loggerBuilder.AddFilter((s, l) => l == LogLevel.Information)
+            );
         public DbSet<Post> Posts { get; set; }
         public DbSet<Tag> Tags { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(@"Data Source=84E2;Database=EfCore.ExampleDb;Integrated Security=True");
+            optionsBuilder.UseLoggerFactory(EfCoreSqlLoggerFactory)
+                .UseSqlServer(@"Data Source=84E2;Database=EfCore.ExampleDb;Integrated Security=True");
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            //modelBuilder.ApplyConfiguration
             modelBuilder.Entity<PostTag>()
                 .HasKey(t => new { t.PostId, t.TagId });
 
