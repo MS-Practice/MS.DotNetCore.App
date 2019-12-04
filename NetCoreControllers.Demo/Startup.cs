@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Mvc.ApplicationParts;
 using Microsoft.AspNetCore.Mvc.Razor;
 using Microsoft.AspNetCore.Routing;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
 using NetCoreControllers.Demo.Filters;
 using NetCoreControllers.Demo.Formatters;
 using NetCoreControllers.Demo.Model;
@@ -43,7 +44,9 @@ namespace NetCoreControllers.Demo
                 options.InputFormatters.Add(new VcardInputFormatter());
                 options.OutputFormatters.Add(new VcardOutputFormatter());
             })
-            .ConfigureApplicationPartManager(ap=> {
+                .SetCompatibilityVersion(Microsoft.AspNetCore.Mvc.CompatibilityVersion.Latest)
+            .ConfigureApplicationPartManager(ap =>
+            {
                 //ap.ApplicationParts.Add(part);
 #if USE_CONTROLLERFEATURE_PROVIDER_GLOBEL_FILTER
                 ap.FeatureProviders.Add(new GenericControllerFeatureProvider()); 
@@ -67,26 +70,36 @@ namespace NetCoreControllers.Demo
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IHostingEnvironment env)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
-            if (env.IsDevelopment())
+            if (env.EnvironmentName == Environments.Development)
             {
                 app.UseDeveloperExceptionPage();
             }
-            app.UseStaticFiles();
-            //            app.UseMvc(routes =>
-            //            {
-            //                routes.MapAreaRoute("blog_route", "Blog", "Manage/{controller}/{action}/{id?}");
-            //#if The_Same_MapAreaRoute
-            //                routes.MapRoute("blog_route", "Manage/{controller}/{action}/{id?}", defaults: new { area = "Blog" }, constraints: new { area = "Blog" }); 
-            //#endif
-            //                routes.MapRoute(name: "Products", template: "{area:exists}/{controller=Home}/{action=Index}");
-            //                //routes.MapRoute("products", "products",defaults:new { controller="MyDemo",action= "GetProducts" });
-            //                //routes.MapRoute("getName", "{controller=Home}/{action=Hi}/{name?}", defaults: new { name = "" });
-            //                routes.MapRoute("default", "{controller=Home}/{action=Index}/{id?}", new { country = "US" });
-            //            });
+            else
+            {
+                app.UseExceptionHandler("/Error");
+                app.UseHsts();
+            }
 
-            app.UseMvcWithDefaultRoute();
+            app.UseStaticFiles();
+            app.UseRouting();
+
+            app.UseCors();
+
+            //验证
+            app.UseAuthentication();
+            //授权
+            app.UseAuthorization();
+
+            app.UseEndpoints(endpoints=> {
+                endpoints.MapAreaControllerRoute("blog_route", "Blog", "Manage/{controller}/{action}/{id?}");
+                endpoints.MapControllerRoute("blog_route", "Manage/{controller}/{action}/{id?}", defaults: new { area = "Blog" }, constraints: new { area = "Blog" });
+
+                endpoints.MapDefaultControllerRoute();
+                //...
+            });
+
             //app.Run(async (context) =>
             //{
             //    await context.Response.WriteAsync("Hello World!");

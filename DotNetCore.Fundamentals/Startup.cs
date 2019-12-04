@@ -16,6 +16,7 @@ using SimpleInjector;
 using CommonCodeProject.Data;
 using SimpleInjector.Lifestyles;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Hosting;
 
 namespace DotNetCore.Fundamentals
 {
@@ -61,7 +62,7 @@ namespace DotNetCore.Fundamentals
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IHostingEnvironment env)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
             var trackPackageRouteHandler = new RouteHandler(context =>
             {
@@ -83,7 +84,7 @@ namespace DotNetCore.Fundamentals
             var router = routeBuilder.Build();
             app.UseRouter(router);
 
-            if (env.IsDevelopment())
+            if (env.EnvironmentName == Environments.Development)
             {
                 app.UseDeveloperExceptionPage();
             }

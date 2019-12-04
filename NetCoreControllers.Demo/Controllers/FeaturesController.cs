@@ -9,6 +9,7 @@ using Microsoft.AspNetCore.Mvc.Controllers;
 using Microsoft.AspNetCore.Mvc.Razor.Compilation;
 using Microsoft.AspNetCore.Mvc.Razor.TagHelpers;
 using Microsoft.AspNetCore.Mvc.ViewComponents;
+using Microsoft.CodeAnalysis.Razor;
 
 // For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -31,9 +32,9 @@ namespace NetCoreControllers.Demo.Controllers
             _applicationPartManager.PopulateFeature(controllerFeature);
             viewModel.Controllers = controllerFeature.Controllers.ToList();
 
-            var metaDataReferenceFeature = new MetadataReferenceFeature();
-            _applicationPartManager.PopulateFeature(metaDataReferenceFeature);
-            viewModel.MetadataReferences = metaDataReferenceFeature.MetadataReferences.ToList();
+            //var metaDataReferenceFeature = new MetadataReferenceFeature();
+            //_applicationPartManager.PopulateFeature(metaDataReferenceFeature);
+            //viewModel.MetadataReferences = metaDataReferenceFeature.MetadataReferences.ToList();
 
             var tagHelperFeature = new TagHelperFeature();
             _applicationPartManager.PopulateFeature(tagHelperFeature);
