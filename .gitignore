@@ -74,3 +74,6 @@
 /WebSocketsDotNetCore.Demo/bin
 [Bb]in
 .vs/
+
+*.user
+*.user

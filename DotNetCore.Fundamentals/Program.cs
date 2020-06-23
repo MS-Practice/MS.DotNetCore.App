@@ -22,6 +22,11 @@ namespace DotNetCore.Fundamentals
                 .UseKestrel()
                 .UseContentRoot(Directory.GetCurrentDirectory())
                 .UseIISIntegration()
+                .ConfigureLogging(logger =>
+                {
+                    logger.AddConsole();
+                    logger.SetMinimumLevel(LogLevel.Information);
+                })
                 .UseStartup<Startup>()
                 .Build();
     }

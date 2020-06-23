@@ -16,6 +16,8 @@ using SimpleInjector;
 using CommonCodeProject.Data;
 using SimpleInjector.Lifestyles;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Hosting;
+using DotNetCore.Fundamentals.BackgroundServices;
 
 namespace DotNetCore.Fundamentals
 {
@@ -58,10 +60,12 @@ namespace DotNetCore.Fundamentals
             _container.Verify();
 
             services.AddDirectoryBrowser();
+
+            services.AddBackgroudWorker();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IHostingEnvironment env)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
             var trackPackageRouteHandler = new RouteHandler(context =>
             {
@@ -81,6 +85,7 @@ namespace DotNetCore.Fundamentals
             });
 
             var router = routeBuilder.Build();
+
             app.UseRouter(router);
 
             if (env.IsDevelopment())
@@ -91,6 +96,12 @@ namespace DotNetCore.Fundamentals
             {
                 app.UseExceptionHandler("/Home/Error");
             }
+
+            app.UseRouting();
+            app.UseEndpoints(endpoints =>
+            {
+                endpoints.MapControllers();
+            });
 
             app.UseSimpleInjectorActivatedMiddleware();
 
@@ -130,19 +141,19 @@ namespace DotNetCore.Fundamentals
                 RequestPath = new PathString("/MyImages")
             });
 
-            app.UseMvc(routes =>
-            {
-                routes.MapRoute(
-                    name: "us_english_products",
-                    template: "en-US/Products/{id}",
-                    defaults: new { controller = "Products", action = "Details" },
-                    constraints: new { id = new IntRouteConstraint() },
-                    dataTokens: new { locale = "en-US" }
-                    );
-                routes.MapRoute(
-                    name: "default",
-                    template: "{controller=Home}/{action=Index}/{id?}");
-            });
+            //app.UseMvc(routes =>
+            //{
+            //    routes.MapRoute(
+            //        name: "us_english_products",
+            //        template: "en-US/Products/{id}",
+            //        defaults: new { controller = "Products", action = "Details" },
+            //        constraints: new { id = new IntRouteConstraint() },
+            //        dataTokens: new { locale = "en-US" }
+            //        );
+            //    routes.MapRoute(
+            //        name: "default",
+            //        template: "{controller=Home}/{action=Index}/{id?}");
+            //});
 
             //使用UrlRewriteMiddleware
             using (var apacheModRewriteStreamReader = File.OpenText(Path.Combine(Directory.GetCurrentDirectory(), "Routings", "ApacheModReWriter.txt")))
