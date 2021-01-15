@@ -14,7 +14,10 @@ namespace AspNetCore {
 
         public static ServiceCollection Services => m_services;
 
-        static void Main(string[] args) {
+        static async void Main(string[] args) {
+            // 2021-01-15 更新
+            await HttpClientUpdateStudy.Start();
+            // 2021-01-15 更新结束
             SeletedByVersion();
             //Startup startup = new Startup();
             //var methods = startup.GetType().GetMethods(BindingFlags.Public | BindingFlags.Instance);
