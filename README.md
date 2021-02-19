@@ -2,7 +2,7 @@
 url:https://github.com/aspnet/Docs/tree/master/aspnetcore/mvc/views/tag-helpers/authoring/sample/AuthoringTagHelpers/src/AuthoringTagHelpers
 
 asp.net core doc url:
-https://docs.microsoft.com/en-us/aspnet/core/
+https://docs.microsoft.com/en-us/aspnet/core/  
 https://docs.microsoft.com/zh-cn/aspnet/core/getting-started/?view=aspnetcore-5.0&tabs=windows
 
 asp.net core cli api url:
