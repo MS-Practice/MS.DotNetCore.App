@@ -18,6 +18,7 @@ using SimpleInjector.Lifestyles;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Hosting;
 using DotNetCore.Fundamentals.BackgroundServices;
+using DotNetCore.Fundamentals.Localization;
 
 namespace DotNetCore.Fundamentals
 {
@@ -35,8 +36,7 @@ namespace DotNetCore.Fundamentals
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddMvc();
-
+            services.AddLocalization(resourcePath: "");
             services.AddTransient<IMiddlewareFactory>(_ =>
             {
                 return new SimpleInjectorMiddlewareFactory(_container);
@@ -67,6 +67,7 @@ namespace DotNetCore.Fundamentals
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
+            app.UseLocalization();
             var trackPackageRouteHandler = new RouteHandler(context =>
             {
                 var routeValues = context.GetRouteData().Values;

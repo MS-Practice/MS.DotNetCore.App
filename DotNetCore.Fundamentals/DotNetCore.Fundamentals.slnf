@@ -1,0 +1,9 @@
+{
+  "solution": {
+    "path": "..\\MS.DotNetCore.App.sln",
+    "projects": [
+      "CommonCodeProject\\CommonCodeProject.csproj",
+      "DotNetCore.Fundamentals\\DotNetCore.Fundamentals.csproj"
+    ]
+  }
+}
